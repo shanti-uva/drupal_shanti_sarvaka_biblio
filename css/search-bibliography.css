@@ -42,7 +42,6 @@ body.page-csc-search {
 .main-content .selectpicker li.selected a:hover {
   background: #008a96 !important;
 }
-.page-csc-search .breadwrap,
 .page-csc-search .bootstrap-select.btn-group .btn .caret {
   display: none;
 }
@@ -217,42 +216,8 @@ body.page-csc-search {
 .page-csc-search .views-field-field-zotero-tags {
   clear: left;
 }
-.page-csc-search .titlearea>div {
-  height: auto;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-.page-csc-search .titlearea .page-title,
-.page-csc-search .titlearea .banner-content {
-  display: block;
-}
-.page-csc-search .titlearea .page-title {
-  padding: 5px 12px 5px 0;
-  max-width: 56%;
 
-}
-.page-csc-search .titlearea .page-title .icon {
-  font-size: 80%;
-}
-.page-csc-search .titlearea .page-title .icon:before {
-  content: "\e613";
-  font-family: 'shanticon';
-}
-.page-csc-search .titlearea .page-title span {
-  color: #FFF;
-  font-size: 1em;
-  text-transform: capitalize;
-  font-family: museo-sans-300, sans-serif;
-}
-.page-csc-search .breadcrumbs-wrapper {
-  display: none;
-}
 .page-csc-search .titlearea .banner-content {
-  width: 100%;
-  margin: 0;
-  position: inherit;
-  right: 0;
-  background: none;
   padding: 5px 10px 0 24px;
 }
 .page-csc-search  .home-search-page {
@@ -351,118 +316,6 @@ body.page-csc-search {
 }
 #block-csc-views-custom-taxonomy-block {
   padding: 12px 0 8px 45px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item {
-  height: 30px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb {
-  font-size: 1em;
-  color: #FFF;
-  font-family: museo-sans-700, sans-serif;
-}
-#block-csc-views-custom-taxonomy-breadcrumb span,
-#block-csc-views-custom-taxonomy-breadcrumb a {
-  font-size: 1em;
-  color: #FFF;
-  font-family: museo-sans-300, sans-serif;
-}
-#block-csc-views-custom-taxonomy-breadcrumb a.active,
-#block-csc-views-custom-taxonomy-breadcrumb a:hover {
-  color: #FFF;
-  text-decoration: underline;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container a,
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown a {
-  text-decoration: none;
-  font-size: 1em;
-  font-family: museo-sans-300, sans-serif;
-  font-size: 1em;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item {
-  background: url(../images/breadcrumb_arrow.png) no-repeat;
-  background-position: 10px 6px;
-  padding-left: 25px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.current_breadcrumb a,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.current_breadcrumb {
-  color: #fff;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.current_breadcrumb {
-  font-family: museo-sans-300, sans-serif;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
-  box-shadow: none;
-  background: transparent url(../images/breadcrumb_bubble_arrow.png) no-repeat;
-  padding-top: 14px;
-  width: 320px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
-  background-position: center top;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown {
-  margin-left: 0;
-  background-position: 40px top;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown a {
-  color: #333;
-  font-weight: normal;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown ul {
-  margin-top: 15px;
-  padding: 0 23px 15px 23px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown ul li ul {
-  margin-left: 10px;
-  padding: 0;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
-  margin-left: -5%;
-  margin-top: 2px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown .inner-library,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .inner-breadcrumb-child-container {
-  display: block;
-  background: #fff;
-  border-radius: 5px;
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px;
-  -webkit-box-shadow: 0px 10px 27px -10px rgba(46,46,46,1);
-  -moz-box-shadow: 0px 10px 27px -10px rgba(46,46,46,1);
-  box-shadow: 0px 10px 27px -10px rgba(46,46,46,1);
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-top a,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child a,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a {
-  color: #333333;
-  font-size: 1em;
-  font-weight: 500;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-top a,
-#block-csc-views-custom-taxonomy-breadcrumb .view-all-library-container a {
-  display: block;
-  padding-left: 50px;
-  background: url(../images/all_source_icon.png) no-repeat;
-  text-transform: uppercase;
-  background-position: left center;
-  font-size: 0.938em;
-  color: #333;
-  font-family: museo-sans-900, sans-serif;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top, 
-#block-csc-views-custom-taxonomy-breadcrumb .view-all-library-container {
-  padding: 17px 23px 17px 23px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
-  padding: 15px 23px 15px 23px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
-  padding: 0 23px 15px 23px;
-  margin-top: -10px;
-}
-.breadcrumb-child-container .breadcrumb-child-top,
-.view-all-library-container {
-  border-bottom: 2px solid #f1f3f2;
 }
 #block-csc-views-custom-taxonomy-block .title-area h1 {
   font-family: museo-sans-900, sans-serif;
@@ -564,9 +417,9 @@ body.page-csc-search {
 }
 #block-csc-views-custom-taxonomy-flyout-block ul li a.expand-btn,
 #block-csc-views-custom-taxonomy-breadcrumb ul li a.expand-btn,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child a.expand-btn,
+#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child a.expand-btn,
 #block-csc-views-custom-taxonomy-block ul li a.expand-btn,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn {
+#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-sub-top a.expand-btn {
   font-family: 'Glyphicons Halflings';
   color: #40adb6;
   width: auto;
@@ -579,13 +432,13 @@ body.page-csc-search {
 #block-csc-views-custom-taxonomy-block ul li a.expand-btn.glyphicon-plus-sign:before,
 #block-csc-views-custom-taxonomy-flyout-block ul li a.expand-btn.glyphicon-plus-sign:before,
 #block-csc-views-custom-taxonomy-breadcrumb ul li a.expand-btn.glyphicon-plus-sign:before,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn.glyphicon-plus-sign:before {
+#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-sub-top a.expand-btn.glyphicon-plus-sign:before {
   content: "\e081";
 }
 #block-csc-views-custom-taxonomy-block ul li a.expand-btn.glyphicon-minus-sign:before,
 #block-csc-views-custom-taxonomy-flyout-block ul li a.expand-btn.glyphicon-minus-sign:before,
 #block-csc-views-custom-taxonomy-breadcrumb ul li a.expand-btn.glyphicon-minus-sign:before,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn.glyphicon-minus-sign:before {
+#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-sub-top a.expand-btn.glyphicon-minus-sign:before {
   content: "\e082";
 }
 .breadcrumb-child-sub-top a.expand-btn,
@@ -612,7 +465,7 @@ body.page-csc-search {
   display: inline-block;
   position: relative;
 }
-.page-csc-search  .pager {
+.page-csc-search .pager {
   display: none;
 }
 #block-views-exp-biblio-search-api-page {
@@ -642,7 +495,7 @@ body.page-csc-search {
 }
 #block-csc-views-custom-sort-filter {
   float: left;
-  width: 73%;
+  width: 100%;
 }
 #block-csc-views-custom-sort-filter.expanded {
   width: 80%;
@@ -1294,6 +1147,8 @@ a#long-detail.active {
 .page-csc-search.page-csc-search-biblio .views-label {
   font-weight: normal;
   font-family: museo-sans-900, sans-serif;
+  float: left;
+  margin-right: 3px;
 }
 .page-csc-search-biblio .views-field {
   margin: 10px 0;
@@ -1435,7 +1290,7 @@ a#long-detail.active {
   display: inline-block;
   list-style: none;
   width: 90%;
-  float: right;
+  float: left;
   margin: 0;
 }
 .view-display-id-biblio_full .views-field-field-zotero-collections ul li {
