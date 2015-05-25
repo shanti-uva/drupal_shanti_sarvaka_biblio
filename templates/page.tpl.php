@@ -110,7 +110,7 @@
 <!-- Footer -->
 <footer class="footer">
   <div>
-    <p>© COPYRIGHT 2014</p>
+    <p>&copy; COPYRIGHT 2014</p>
     <?php print render($page['footer']); ?>
   </div>
 </footer>
