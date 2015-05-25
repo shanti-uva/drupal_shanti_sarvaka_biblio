@@ -3,16 +3,16 @@
     attach: function (context, settings) {
       // Keep search flyout open
       if ($("#search-flyout").length) {
+        var status = $.cookie('flyout-status');
         if ($.cookie('flyout-status') && $.cookie('flyout-status') == 'open') {
-          $("#search-flyout").openMbExtruder();
-          $('.page-csc-search .main-content .content-section .view-content, #block-csc-views-custom-sort-filter, .view-biblio-search-api .attachment').css('width', '74%');
+          openSearchFlyout();
         }
         else {
-          $('.page-csc-search .main-content .content-section .view-content, #block-csc-views-custom-sort-filter, .view-biblio-search-api .attachment').css('width', '100%');
+          closeSearchFlyout();
         }
       }
       $('#search-flyout div.flap').click(function(e) {
-        if ($('#search-flyout').hasClass('isOpened') === true) {
+        if ($('#search-flyout').attr('isopened')) {
           var flyout_status = 'open';
           $('.page-csc-search .main-content .content-section .view-content, #block-csc-views-custom-sort-filter,.view-biblio-search-api .attachment').animate({width: '74%'});
         }
@@ -26,4 +26,14 @@
       });
     }
   };
+
+  function openSearchFlyout() {
+          $("#search-flyout").openMbExtruder();
+          $('.page-csc-search .main-content .content-section .view-content, #block-csc-views-custom-sort-filter, .view-biblio-search-api .attachment').css('width', '74%');
+
+  }
+  function closeSearchFlyout() {
+          $('.page-csc-search .main-content .content-section .view-content, #block-csc-views-custom-sort-filter, .view-biblio-search-api .attachment').css('width', '100%');
+        }
+
 })(jQuery);
