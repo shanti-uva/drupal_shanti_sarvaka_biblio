@@ -102,3 +102,8 @@
 .breadcrumb li:last-child a {
 
 }
+#block-csc-views-custom-taxonomy-breadcrumb {
+  overflow: hidden;
+  /**  Keep this hidden container from blocking clicks */
+  height: 0;
+}
