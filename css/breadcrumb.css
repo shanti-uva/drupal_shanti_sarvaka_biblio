@@ -1,60 +1,113 @@
-#block-csc-views-custom-taxonomy-breadcrumb {
+#block-sources-views-custom-taxonomy-breadcrumb {
   height: 30px;
-}
-#block-csc-views-custom-taxonomy-breadcrumb {
   font-size: 1em;
   color: #FFF;
-  font-family: museo-sans-700, sans-serif;
-}
-#block-csc-views-custom-taxonomy-breadcrumb span,
-
-#block-csc-views-custom-taxonomy-breadcrumb a {
-  font-size: 1em;
-  font-family: museo-sans-300, sans-serif;
+  overflow: hidden;
+  /**  Keep this hidden container from blocking clicks */
 }
 
-.breadcrumb-child-container a,
-.library-dropdown a {
-  text-decoration: none;
-  font-size: 1em;
-  font-family: museo-sans-300, sans-serif;
-  font-size: 1em;
+#block-sources-views-custom-taxonomy-breadcrumb ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0; 
+  clear: left;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .current_breadcrumb a,
-#block-csc-views-custom-taxonomy-breadcrumb .current_breadcrumb {
+
+#block-sources-views-custom-taxonomy-breadcrumb ul li {
+  overflow: hidden;
+  padding-right: 0;
+  display: block;
+  width: 100%;
+  padding: 3px 0;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb ul li a,
+.breadcrumb-child-sub-top a {
+  display: inline-block;
+  float: right;
+  width: 86%;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child a.expand-btn,
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn,
+#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.expanded,
+#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn {
+  background: none;
+  text-indent: 1em;
+  width: auto;
+  font-family: 'Glyphicons Halflings';
+  width: auto;
+  border: none;
+  float: left;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.glyphicon-plus-sign:before,
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn.glyphicon-plus-sign:before {
+  content: "\e081";
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.expanded,
+#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.glyphicon-minus-sign:before,
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn.glyphicon-minus-sign:before {
+  content: "\e082";
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb ul li .item-list {
+  clear: left;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb ul li .item-list ul {
+  margin: 0 0 0 10px;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item {
+  height: 30px;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item {
+  background: url(../images/breadcrumb_arrow.png) no-repeat;
+  background-position: 10px 6px;
+  padding-left: 25px;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .current_breadcrumb a,
+#block-sources-views-custom-taxonomy-breadcrumb .current_breadcrumb {
   color: #fff;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .current_breadcrumb {
-  font-family: museo-sans-300, sans-serif;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
+
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown,
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
   box-shadow: none;
   background: transparent url(../images/breadcrumb_bubble_arrow.png) no-repeat;
   padding-top: 14px;
   width: 320px;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
+  margin-left: 0;
   background-position: center top;
+  margin-top: 2px;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown {
+
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown {
   margin-left: 0;
   background-position: 40px top;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown a {
-  color: #333;
-  font-weight: normal;
-}
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown ul {
+
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown ul {
   margin-top: 15px;
   padding: 0 23px 15px 23px;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown ul li ul {
+
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown ul li ul {
   margin-left: 10px;
   padding: 0;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .library-dropdown .inner-library,
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .inner-breadcrumb-child-container {
+
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown .inner-library,
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .inner-breadcrumb-child-container {
   display: block;
   background: #fff;
   border-radius: 5px;
@@ -65,45 +118,45 @@
   box-shadow: 0px 10px 27px -10px rgba(46,46,46,1);
 }
 
-
-#block-csc-views-custom-taxonomy-breadcrumb  .breadcrumb-child-top a,
-#block-csc-views-custom-taxonomy-breadcrumb  .breadcrumb-child a,
-#block-csc-views-custom-taxonomy-breadcrumb  .breadcrumb-child-sub-top a {
-  color: #333;
-  font-size: 1em;
-  font-weight: 500;
-}
-#block-csc-views-custom-taxonomy-breadcrumb  .breadcrumb-child-top a,
-#block-csc-views-custom-taxonomy-breadcrumb .view-all-library-container a {
+#block-sources-views-custom-taxonomy-breadcrumb  .breadcrumb-child-top a,
+#block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container a {
   display: block;
   padding-left: 50px;
   background: url(../images/all_source_icon.png) no-repeat;
   text-transform: uppercase;
   background-position: left center;
-  font-size: 0.938em;
-  color: #333;
-  font-family: museo-sans-900, sans-serif;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top, 
-#block-csc-views-custom-taxonomy-breadcrumb .view-all-library-container {
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top, 
+#block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container {
   padding: 17px 23px 17px 23px;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
   padding: 15px 23px 15px 23px;
 }
-#block-csc-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
   padding: 0 23px 15px 23px;
   margin-top: -10px;
 }
+
 .breadcrumb-child-container .breadcrumb-child-top,
 .view-all-library-container {
   border-bottom: 2px solid #f1f3f2;
 }
-.breadcrumb li:last-child a {
 
+#block-sources-views-custom-taxonomy-breadcrumb span.collection-filtered-text {
+  color: #fff;
+  margin-left: 6px;
 }
-#block-csc-views-custom-taxonomy-breadcrumb {
-  overflow: hidden;
-  /**  Keep this hidden container from blocking clicks */
-  height: 0;
+
+.breadcrumb-child-sub-top a.expand-btn {
+  width: 15px;
+  float: left;
+  margin-left: 15px;
+}
+
+.page-sources-search .breadcrumbs-wrapper {
+  display: none;
 }

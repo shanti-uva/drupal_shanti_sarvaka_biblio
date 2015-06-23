@@ -1,0 +1,110 @@
+#block-sources-views-custom-taxonomy-block ul li {
+  overflow: hidden;
+  padding-right: 0;
+  display: block;
+  width: 100%;
+  padding: 3px 0;
+}
+
+#block-sources-views-custom-taxonomy-block ul li a.expand-btn {
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  width: 11px;
+  height: 20px;
+}
+
+#block-sources-views-custom-taxonomy-block ul li a.expand-btn.expanded {
+  width: 14px;
+  height: 20px;
+  border: none
+}
+
+#block-sources-views-custom-taxonomy-block ul li .item-list {
+  clear: left;
+}
+
+#block-sources-views-custom-taxonomy-block ul li .item-list ul {
+  margin: 0 0 0 10px;
+}
+
+#block-sources-views-custom-taxonomy-flyout-block,
+#block-sources-views-custom-taxonomy-block  {
+  padding: 12px 0 8px 12px;
+}
+
+#block-sources-views-custom-taxonomy-block ul,
+#block-sources-views-custom-taxonomy-flyout-block ul {
+  clear: left;
+}
+
+#block-sources-views-custom-taxonomy-block ul {
+  margin-top: 5px;
+  padding-left: 0;
+}
+
+#block-sources-views-custom-taxonomy-flyout-block ul {
+  padding: 0;
+  list-style: none;
+}
+
+#block-sources-views-custom-taxonomy-flyout-block ul li {
+  overflow: hidden;
+  padding-right: 0;
+  display: block;
+  width: 100%;
+  padding: 6px 0;
+}
+
+#block-sources-views-custom-taxonomy-block ul li.first {
+  border: none;
+}
+
+#block-sources-views-custom-taxonomy-block ul li ul {
+  clear: both;
+}
+
+#block-sources-views-custom-taxonomy-block ul li ul,
+#block-sources-views-custom-taxonomy-flyout-block ul li ul {
+  padding-left: 10px;
+}
+
+#block-sources-views-custom-taxonomy-block ul li a {
+  width: 98%;
+  display: inline-block;
+  float: right;
+}
+
+#block-sources-views-custom-taxonomy-flyout-block ul li a  {
+  width: 90%;
+  display: inline-block;
+  float: right;
+}
+
+#block-sources-views-custom-taxonomy-flyout-block ul li a.expand-btn {
+  height: 15px;
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  width: auto;
+}
+
+a.expand-btn {
+  font-family: 'Glyphicons Halflings';
+}
+
+#block-sources-views-custom-taxonomy-flyout-block ul li a.expand-btn
+#block-sources-views-custom-taxonomy-block ul li a.expand-btn {
+  width: auto;
+  border: none;
+}
+
+#block-sources-views-custom-taxonomy-block ul li a.expand-btn.glyphicon-plus-sign:before,
+#block-sources-views-custom-taxonomy-flyout-block ul li a.expand-btn.glyphicon-plus-sign:before {
+  content: "\e081";
+}
+
+#block-sources-views-custom-taxonomy-block ul li a.expand-btn.glyphicon-minus-sign:before,
+#block-sources-views-custom-taxonomy-flyout-block ul li a.expand-btn.glyphicon-minus-sign:before {
+  content: "\e082";
+}

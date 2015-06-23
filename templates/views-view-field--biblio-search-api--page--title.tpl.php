@@ -21,8 +21,10 @@
  * regardless of any changes in the aliasing that might happen if
  * the view is modified.
  */
+
 ?>
 <div class="<?php print 'source-icon-' . $row->_entity_properties['biblio_publication_type']; ?> title-link-container">
+  <i class="glyphicon shanticon-essays"></i>
   <?php
     $current_page = (!empty($_GET['page'])) ? intval($_GET['page']) : 0;
     $page = $view->row_index + (25 * $current_page);
@@ -32,6 +34,6 @@
     $year = (!empty($row->_entity_properties['biblio_year'])) ? '(' . $row->_entity_properties['biblio_year'] . ')' : '';
     $parameters['current_nid'] = $row->entity;
     $publication_type = (!empty($row->_entity_properties['entity object']->biblio_type_name)) ? $row->_entity_properties['entity object']->biblio_type_name . ':': '';
-    print l($publication_type . ' '. $row->_entity_properties['title'] . ' ' . $year, 'csc-search/biblio', array('query' => $parameters));
+    print l($publication_type . ' '. $row->_entity_properties['title'] . ' ' . $year, 'sources-search/biblio', array('query' => $parameters));
   ?>
 </div>

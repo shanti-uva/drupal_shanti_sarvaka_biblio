@@ -1,4 +1,4 @@
-name = CSC Custom Theme
+name = Sources Custom Theme
 description = A sub-theme of the Drupal 7 Shanti Sarvaka Theme
 core = 7.x
 base theme = shanti_sarvaka
@@ -27,16 +27,19 @@ regions[admin_footer]   = Admin Footer
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] =  css/csc-theme.css
-stylesheets[all][] =  css/shanti-search-csc-theme.css
+stylesheets[all][] =  css/sources-theme.css
+stylesheets[all][] =  css/shanti-search-sources-theme.css
 stylesheets[all][] =  css/search-bibliography.css
 stylesheets[all][] =  css/breadcrumb.css
+stylesheets[all][] =  css/custom-taxonomy-block.css
+stylesheets[all][] =  css/flyout-search-block.css
+stylesheets[all][] =  css/biblio-full-page.css
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;;
-scripts[] = js/shanti-main-csc-theme.js
-scripts[] = js/shanti-search-csc-theme.js
+scripts[] = js/shanti-main-sources-theme.js
+scripts[] = js/shanti-search-sources-theme.js
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Settings   

@@ -32,7 +32,7 @@
       foreach($row->_entity_properties['field_zotero_tags'] as $key => $tid): ?>
       <?php $term = taxonomy_term_load($tid); ?>
       <?php $comma = ($key != $last_key) ? ',': '';?>
-      <li><?php print l($term->name . $comma, 'csc-search', array('query' => array('field_zotero_tags' => $tid, 'view_mode' => 'collection'))) . '&nbsp;'; ?></li>
+      <li><?php print l($term->name . $comma, 'sources-search', array('query' => array('field_zotero_tags' => $tid, 'view_mode' => 'collection'))) . '&nbsp;'; ?></li>
     <?php endforeach;?>
   </ul>
 <?php endif;?>
