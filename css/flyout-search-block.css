@@ -245,6 +245,7 @@ a.open-search-field {
   display: inline-block;
   float: left;
 }
+
 #sources-views-advanced-search-form .form-submit {
   width: 45%;
   float: right;
@@ -254,6 +255,11 @@ a.open-search-field {
 
 #sources-views-advanced-search-form .form-item.form-item-title {
   margin-top: 10px;
+}
+
+#sources-views-advanced-search-form .radio-inline {
+  min-width: 0;
+  width: auto;
 }
 
 .view-filters.filter-content-right .autocomplete-search-result-container {

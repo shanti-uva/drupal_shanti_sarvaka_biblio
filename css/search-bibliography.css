@@ -301,11 +301,11 @@ a#long-detail.active {
 .custom-pager {
   padding: 0 24px;
   font-size: 0.938em;
+  font-family: 'museo-sans-500',Helvetica,Arial,sans-serif;
 }
 
 .custom-pager .custom-pager-right .pager li,
-.custom-pager .custom-pager-right .pager li > a .icon,
-.custom-pager .custom-pager-left span {
+.custom-pager .custom-pager-right .pager li > a .icon {
   text-transform: uppercase;
 }
 
