@@ -1,3 +1,7 @@
+#search-flyout.extruder.right.isOpened .extruder-content {
+  border-right-width: 13px;
+}
+
 .page-sources-search .views-widget-sort-by,
 .page-sources-search .views-widget-sort-order {
   display: none;
@@ -180,14 +184,12 @@ a.clear-search-text {
   margin-top: 15px;
   right: -19px;
   text-indent: -9999em;
-  background: url(../images/close_btn.png) no-repeat;
   width: 12px;
   height: 12px;
 }
 
 a.open-search-field {
   text-indent: -9999em;
-  background: url(../images/search_icon.png) no-repeat;
   width: 40px;
   height: 40px;
   display: block;

@@ -67,8 +67,6 @@
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item {
-  background: url(../images/breadcrumb_arrow.png) no-repeat;
-  background-position: 10px 6px;
   padding-left: 25px;
 }
 

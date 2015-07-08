@@ -22,6 +22,7 @@ function sources_theme_breadcrumb() {
  * Implements HOOK_preprocess_html().
  */
 function sources_theme_preprocess_html(&$variables) {
+  drupal_add_js('sites/all/libraries/cookie.js/jquery.cookie.js', 'file');
   if (!sources_theme_is_front_page()) {
     sources_theme_remove_front_page_class($variables);
   }
