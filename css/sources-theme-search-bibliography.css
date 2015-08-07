@@ -21,7 +21,6 @@
 .page-sources-search .main-content .content-section .view-content,
 .page-sources-search .main-content .content-section .view-empty {
   padding: 12px 12px 8px 24px;
-  width: 74%;
   float: left;
   display: inline-block;
   max-width: 100%;
@@ -135,19 +134,13 @@
 }
 
 #block-sources-views-custom-sort-filter {
-  width: 880px;
   text-align: right;
-  float: left;
+  clear: both;
 }
 
 #block-sources-views-custom-sort-filter span.select-wrapper {
   display: inline-block;
   position: relative;
-}
-
-#block-sources-views-custom-sort-filter {
-  float: left;
-  width: 73%;
 }
 
 #block-sources-views-custom-sort-filter.expanded {
@@ -302,6 +295,8 @@ a#long-detail.active {
   padding: 0 24px;
   font-size: 0.938em;
   font-family: 'museo-sans-500',Helvetica,Arial,sans-serif;
+  overflow: auto;
+  width: 100%;
 }
 
 .custom-pager .custom-pager-right .pager li,

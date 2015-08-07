@@ -1,3 +1,7 @@
+#block-sources-views-custom-taxonomy-flyout-block li ul,
+#block-sources-views-custom-taxonomy-block li ul {
+  display: none;
+}
 #block-sources-views-custom-taxonomy-block ul li {
   overflow: hidden;
   padding-right: 0;
