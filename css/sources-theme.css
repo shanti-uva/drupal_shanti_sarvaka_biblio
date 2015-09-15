@@ -8,20 +8,10 @@
 
 a,
 .main-content .selectpicker .caret::before,
-.view-id-biblio_search_api li a,
-.ui-fancytree li a,
-.fancytree-expander {
+.view-id-biblio_search_api li a {
   color: #008a96;
-}
-
-span.fancytree-expander {
-  background-image: none;
 }
 
 .view-id-biblio_search_api .views-field-title a {
   color: #404040 !important;
-}
-
-.views-field-title .publication-type {
-  text-transform: lowercase;
 }

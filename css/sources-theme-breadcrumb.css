@@ -13,70 +13,21 @@
   padding-bottom: 0;
   margin-bottom: 0; 
   clear: left;
+  border: none;
+  outline: 0;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb li ul {
   display: none;
 }
 
-#block-sources-views-custom-taxonomy-breadcrumb ul li {
-  overflow: hidden;
-  padding-right: 0;
-  display: block;
-  width: 100%;
-  padding: 3px 0;
-}
-
 #block-sources-views-custom-taxonomy-breadcrumb ul li a,
 .breadcrumb-child-sub-top a {
-  display: inline-block;
-  float: right;
-  width: 86%;
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child a.expand-btn,
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn,
-#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.expanded,
-#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn {
-  background: none;
-  text-indent: 1em;
-  width: auto;
-  font-family: 'Glyphicons Halflings';
-  width: auto;
+  font-family: tahoma, arial, helvetica;
+  font-size: 10pt;
   border: none;
-  float: left;
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.glyphicon-plus-sign:before,
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn.glyphicon-plus-sign:before {
-  content: "\e081";
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.expanded,
-#block-sources-views-custom-taxonomy-breadcrumb ul li a.expand-btn.glyphicon-minus-sign:before,
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item .breadcrumb-child-sub-top a.expand-btn.glyphicon-minus-sign:before {
-  content: "\e082";
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb ul li .item-list {
-  clear: left;
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb ul li .item-list ul {
-  margin: 0 0 0 10px;
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item {
-  height: 30px;
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-item.non-default-item {
-  padding-left: 25px;
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb .current_breadcrumb a,
-#block-sources-views-custom-taxonomy-breadcrumb .current_breadcrumb {
-  color: #fff;
+  outline: 0;
+  color: #000;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown,
@@ -103,6 +54,16 @@
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown ul {
   margin-top: 15px;
   padding: 0 23px 15px 23px;
+  border: none;
+  outline: 0;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown  #column-all-sources {
+  padding-top: 15px;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown  #column-all-sources  ul {
+  margin-top: 0;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown ul li ul {
@@ -131,34 +92,34 @@
   background-position: left center;
 }
 
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top, 
-#block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container {
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top {
   padding: 17px 23px 17px 23px;
 }
 
+#block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container {
+  padding: 0 23px 17px 23px;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .home-link-container {
+  padding: 17px 23px 0 23px;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .home-link-container a {
+  padding-left: 50px;
+}
+
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
-  padding: 15px 23px 15px 23px;
+  padding: 15px 23px 8px 23px;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
   padding: 0 23px 15px 23px;
-  margin-top: -10px;
+  margin-top: -7px;
 }
 
 .breadcrumb-child-container .breadcrumb-child-top,
 .view-all-library-container {
   border-bottom: 2px solid #f1f3f2;
-}
-
-#block-sources-views-custom-taxonomy-breadcrumb span.collection-filtered-text {
-  color: #fff;
-  margin-left: 6px;
-}
-
-.breadcrumb-child-sub-top a.expand-btn {
-  width: 15px;
-  float: left;
-  margin-left: 15px;
 }
 
 .page-sources-search .breadcrumbs-wrapper {

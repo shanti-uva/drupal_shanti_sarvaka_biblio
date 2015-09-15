@@ -30,9 +30,9 @@ regions[admin_footer]   = Admin Footer
 stylesheets[all][] =  css/sources-theme.css
 stylesheets[all][] =  css/sources-theme-search-bibliography.css
 stylesheets[all][] =  css/sources-theme-breadcrumb.css
-stylesheets[all][] =  css/sources-theme-custom-taxonomy-block.css
 stylesheets[all][] =  css/sources-theme-search-flyout.css
 stylesheets[all][] =  css/sources-theme-biblio-full-page.css
+stylesheets[all][] =  css/sources-theme-fancytree.css
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;;; Scripts

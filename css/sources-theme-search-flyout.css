@@ -18,13 +18,9 @@
 #date-range-slider,
 #date-range-slider-dropdown {
   margin-top: 35px;
-  height: 15px;
-  background: #fff url(../images/date_range_arrow.png) no-repeat;
-  background-position: center center;
-  -webkit-box-shadow: inset 0px 2px 6px -4px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 2px 6px -4px rgba(0,0,0,1);
-  box-shadow: inset 0px 1px 7px -4px rgba(0,0,0,1);
-  background-size: 96%;
+  height: 10px;
+  border-radius: 0;
+
 }
 
 #date-range-slider {
@@ -33,37 +29,37 @@
 }
 
 #date-range-slider-dropdown {
-  width: 97%;
-  margin-left: 4px;
+  width: 92%;
+  position: relative;
+  margin-left: 8px;
+  background: none;
+}
+#date-range-slider-dropdown-container {
+  background: url(../images/date_range_bg.png) no-repeat;
+  background-size: 100%;
+  height: 10px;
+  margin-top: 35px;
+  position: relative;
+  clear: both;
 }
 
 #date-range-slider .ui-slider-range,
 #date-range-slider-dropdown .ui-slider-range {
-  left: 0%;
-  width: 86.11111111111111%;
-  height: 15px;
-  background: rgb(0, 138, 150);
-  min-height: 0;
-  margin-top: -1px;
-  padding: 0;
-  border-radius: 0;
-  background: linear-gradient(rgb(0, 138, 150), rgb(29, 110, 114));
-  background: -moz-linear-gradient(top, rgb(0, 138, 150), rgb(29, 110, 114));
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(0, 138, 150)), to(rgb(29, 110, 114)));
-  background: -webkit-linear-gradient(top, rgb(0, 138, 150), rgb(29, 110, 114));
-  background: -o-linear-gradient(top, rgb(0, 138, 150), rgb(29, 110, 114));
-  background: linear-gradient(to bottom,rgb(0, 138, 150), rgb(29, 110, 114));
+  background: none;
 }
 
 #date-range-slider .ui-slider-handle,
 #date-range-slider-dropdown .ui-slider-handle {
   margin-top: 1px;
-  background: #333;
+  background: #dbdada;
   border: none;
   width: 5px;
   height: 20px;
   margin-left: -0.1em;
   cursor: pointer;
+  top: -9px;
+  position: absolute;
+  z-index: 2;
 }
 
 #date-range-slider .ui-slider-range .start-year,
@@ -102,10 +98,29 @@
   margin-right: -24px;
 }
 
+#edit-advanced-search-publication-year .form-type-radio {
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+}
+
 #advanced-search-start-year,
 #advanced-search-end-year {
   width: 35%;
   margin-right: 5px;
+}
+
+.publication-label-text {
+  margin-right: 10px;
+}
+
+.ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0;
 }
 
 #sources-views-advanced-search-form .form-item-advanced-search-start-year,
@@ -215,8 +230,20 @@ a.open-search-field {
 }
 
 #sources-views-advanced-search-form {
-  padding: 0 20px;
   border: none;
+}
+
+.selected-filter,
+.advanced-search-filter-btn {
+  padding: 0 20px;
+}
+
+.selected-filter {
+  margin: 15px 0;
+}
+
+#edit-advanced-search-api-views-fulltext {
+  border-radius: 25px;
 }
 
 #sources-views-advanced-search-form
@@ -232,7 +259,11 @@ a.open-search-field {
 }
 
 #sources-views-advanced-search-form #edit-advanced-option {
-  display: none;
+  padding: 5px 20px 0 20px;
+}
+
+#edit-advanced-option input.form-autocomplete {
+  background-image: none;
 }
 
 #edit-advanced-option .bootstrap-select {
@@ -275,4 +306,20 @@ a.open-search-field {
 
 .form-item.form-type-select.form-item-condition-option {
   margin: 0;
+}
+
+#search-flyout .view-section .nav-tabs > li {
+  width: 48%;
+}
+
+#search-flyout .view-section .nav-tabs > li.active > a {
+  color: #008a96;
+}
+
+#search-flyout .view-section .nav-tabs > li.active > a {
+  border-top-color: #008a96 !important;
+}
+
+.searchreset {
+  display: none;
 }
