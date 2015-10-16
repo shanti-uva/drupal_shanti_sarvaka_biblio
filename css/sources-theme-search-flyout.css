@@ -194,6 +194,11 @@
   padding: 10px 5px;
 }
 
+#autocomplete {
+  margin-top: 9px;
+  background: #fff;
+}
+
 a.clear-search-text {
   position: absolute;
   margin-top: 15px;
@@ -322,4 +327,10 @@ a.open-search-field {
 
 .searchreset {
   display: none;
+}
+
+#searchbutton,
+.input-section .input-group-btn .searchreset {
+  outline: none;
+  border: none;
 }
