@@ -7,6 +7,14 @@
   display: none;
 }
 
+.input-section .form-item-advanced-search-api-views-fulltext {
+  margin-top: 0;
+}
+
+#searcharea {
+  margin-top: 1em;
+}
+
 .content-section a.toggle-filter-btn-open {
   margin-top: 12px;
   font-size: 1.375em;
