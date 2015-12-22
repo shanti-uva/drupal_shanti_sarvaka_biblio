@@ -11,10 +11,6 @@
   margin-top: 0;
 }
 
-#searcharea {
-  margin-top: 1em;
-}
-
 .content-section a.toggle-filter-btn-open {
   margin-top: 12px;
   font-size: 1.375em;
@@ -351,12 +347,9 @@ a.open-search-field {
   height: 4rem;
 }
 
-.input-section .input-group{
-  margin-top: 0.4rem;
-}
 
 .input-section .selected-filter{
-  margin-bottom:0.5rem;
+  margin-bottom:0.75rem;
 }
 
 
@@ -364,3 +357,16 @@ a.open-search-field {
   width: 52%;
   max-width: 16rem;
 }
+
+.listview .fieldset-wrapper span:nth-of-type(-n+2),
+.listview .fieldset-wrapper .form-item:first-of-type{
+  display:none;
+} 
+
+
+
+
+
+
+
+
