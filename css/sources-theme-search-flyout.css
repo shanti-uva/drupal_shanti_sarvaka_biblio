@@ -358,7 +358,7 @@ a.open-search-field {
   max-width: 16rem;
 }
 
-.listview .fieldset-wrapper span:nth-of-type(-n+2),
+.listview .fieldset-wrapper > span:nth-of-type(-n+2),
 .listview .fieldset-wrapper .form-item:first-of-type{
   display:none;
 } 
