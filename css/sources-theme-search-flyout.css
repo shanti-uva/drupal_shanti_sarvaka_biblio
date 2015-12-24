@@ -363,7 +363,10 @@ a.open-search-field {
   display:none;
 } 
 
-
+.listview .fieldset-wrapper .form-item-advanced-biblio-publication-type{
+  margin-top:0;
+  margin-bottom:0;
+}
 
 
 
