@@ -444,7 +444,7 @@ a#long-detail.active {
 
 .main-col .fancytree-title {
   color: #444;
-  margin: 0 0 0 -24px;
+  margin: 0 0 0 -1rem;
   padding-left: 15px;
   line-height: 1.68em;
   height: 1.62em;
@@ -527,7 +527,7 @@ a#long-detail.active {
   font-size: 15px;
   margin-right: 12px;
   position: relative;
-  top: 0.05rem;
+  top: 0.25rem;
 }
 
 .main-col .fancytree-container .fancytree-node:hover > .glyphicon {
