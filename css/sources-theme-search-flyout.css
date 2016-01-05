@@ -107,6 +107,8 @@
   display: inline-block;
   float: left;
   margin-bottom: 20px;
+  min-width: 25%;
+  height:1.5rem;
 }
 
 #advanced-search-start-year,
@@ -269,7 +271,7 @@ a.open-search-field {
 }
 
 #sources-views-advanced-search-form #edit-advanced-option {
-  padding: 5px 20px 0 20px;
+  padding: 5px 10px;
 }
 
 #edit-advanced-option input.form-autocomplete {
@@ -364,14 +366,15 @@ a.open-search-field {
 } 
 
 .listview .fieldset-wrapper .form-item-advanced-biblio-publication-type{
-  margin-top:0;
+  margin-top: -1rem;
   margin-bottom:0;
 }
 
+/*
 .listview .fieldset-wrapper .form-item:nth-of-type(2){
   margin-top:0;
 }
-
+*/
 
 
 
