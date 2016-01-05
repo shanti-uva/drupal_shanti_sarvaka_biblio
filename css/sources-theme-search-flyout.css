@@ -299,7 +299,7 @@ a.open-search-field {
 }
 
 #sources-views-advanced-search-form .form-item.form-item-title {
-  margin-top: 10px;
+  margin-top: 2rem;
 }
 
 #sources-views-advanced-search-form .radio-inline {
@@ -374,7 +374,6 @@ a.open-search-field {
   margin-bottom: 0;
 }
 
-
 .listview .form-item.form-item-advanced-search-publication-year{
   margin-top: .5rem;
   margin-bottom: 0em;
@@ -382,6 +381,7 @@ a.open-search-field {
 
 .listview label{
   display: none;
+  line-height: 20px;
 }
 
 .listview .form-item-advanced-biblio-publication-type label{
@@ -390,6 +390,10 @@ a.open-search-field {
 
 .listview .form-item-advanced-search-publication-year label{
   display: inline;
+}
+
+.listview .form-item{
+  margin-bottom: 1.3em;
 }
 
 /*
