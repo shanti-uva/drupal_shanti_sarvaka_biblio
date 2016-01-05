@@ -12,7 +12,10 @@
   background: none;
 }
 
-
+.treeview .fancytree-exp-n .fancytree-expander,
+.treeview .fancytree-exp-nl .fancytree-expander{
+  margin-left: -0.22rem;
+}
 
 
 
@@ -186,7 +189,8 @@
 }
 
 
-.main-col .fancytree-exp-n .fancytree-expander{
+.main-col .fancytree-exp-n .fancytree-expander,
+.main-col .fancytree-exp-nl .fancytree-expander{
   position: relative;
   left: 0.075rem;
   top: 0.4rem;
