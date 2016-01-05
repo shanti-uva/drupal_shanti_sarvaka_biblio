@@ -107,7 +107,7 @@
   display: inline-block;
   float: left;
   margin-bottom: 20px;
-  min-width: 25%;
+  min-width: 28%;
   height:1.5rem;
 }
 
@@ -366,7 +366,7 @@ a.open-search-field {
 } 
 
 .listview .form-item-advanced-biblio-publication-type{
-  margin-top: -1rem;
+  margin-top: -0.3rem;
   margin-bottom:0;
 }
 
