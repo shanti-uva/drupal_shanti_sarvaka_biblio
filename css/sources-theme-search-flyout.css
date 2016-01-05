@@ -372,6 +372,7 @@ a.open-search-field {
 
 .listview .form-item-advanced-biblio-publication-type .bootstrap-select.btn-group:not(.input-group-btn){
   margin-bottom: 0;
+  margin-top: 0.2rem;
 }
 
 .listview .form-item.form-item-advanced-search-publication-year{
@@ -393,7 +394,7 @@ a.open-search-field {
 }
 
 .listview .form-item{
-  margin-bottom: 1.3em;
+  margin-bottom: 1rem;
 }
 
 /*
