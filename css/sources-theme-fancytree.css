@@ -1,9 +1,9 @@
 .ui-fancytree li a,
 .fancytree-node .fancytree-expander,
-.view-section .fancytree-container .fancytree-node:hover > .glyphicon,
-.view-section .fancytree-container .glyphicon,
-.view-section .fancytree-container .fancytree-node.on-hover .fancytree-expander,
-.view-section .fancytree-container .fancytree-node.fancytree-active .glyphicon {
+.fancytree-container .fancytree-node:hover > .glyphicon,
+.fancytree-container .glyphicon,
+.fancytree-container .fancytree-node.on-hover .fancytree-expander,
+.fancytree-container .fancytree-node.fancytree-active .glyphicon {
   color: #008a96;
 }
 
