@@ -375,12 +375,19 @@ a.open-search-field {
 }
 
 
-.form-item.form-item-advanced-search-publication-year{
+.listview .form-item.form-item-advanced-search-publication-year{
   margin-top: 0.5rem;
   margin-bottom: 0em;
 }
 
+.listview label{
+  display: none;
+}
 
+.listview .form-item-advanced-biblio-publication-type label,
+.listview .form-item.form-item-advanced-search-publication-year label{
+  display:block;
+}
 
 /*
 .listview .fieldset-wrapper .form-item:nth-of-type(2){
