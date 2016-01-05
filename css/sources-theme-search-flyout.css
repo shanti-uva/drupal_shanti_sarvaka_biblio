@@ -408,9 +408,15 @@ a.open-search-field {
   padding: 0 5px;
 }
 
+
+
+/*** hiding search buttons ***/
 button#edit-submit.btn.btn-primary.form-submit,
 button#edit-clear.btn.btn-primary.form-submit{
   display:none !important;
 }
+
+
+
 
 
