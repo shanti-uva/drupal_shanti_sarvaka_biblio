@@ -4,7 +4,7 @@
 .fancytree-container .glyphicon,
 .fancytree-container .fancytree-node.on-hover .fancytree-expander,
 .fancytree-container .fancytree-node.fancytree-active .glyphicon {
-  color: #008a96;
+  color: #008a96 !important;
 }
 
 .taxonomy-list-tree .ui-fancytree {
