@@ -381,145 +381,11 @@ a#long-detail.active {
 /*------------------------------*/
 /*---- START / Search Tree ----*/
 /*------------------------------*/
-.content-section .fancytree-container {
-  margin: 0;
-  background: transparent;
-  border: none;
-  font-family: 'droidserif',palatino,'Palatino Linotype',georgia,serif;
-}
-
-.content-section .fancytree-container ul {
-  padding-top: 0;
-  margin-top: 0;
-}
-
-.content-section .fancytree-container li {
-  padding: 0;
-  line-height: 1.68em;
-  overflow: hidden;
-  position: relative;
-}
-
-.content-section .fancytree-icon {
-  margin: 0;
-  padding: 0;
-  width: 0;
-  height: 0;
-  line-height: 0;
-  display: none;
-} /*--- remove checkbox ---*/
-.content-section .fancytree-node {
-  border: 1px solid transparent !important;
-  display: block;
-}
-
-.content-section .fancytree-node:hover,
-.content-section .fancytree-node:active,
-.content-section .fancytree-node.fancytree-active,
-.content-section .fancytree-node.fancytree-selected,
-.content-section .fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-active {
-  background: white !important;
-  border-color: #eee !important;
-}
-/*
-.content-section .fancytree-node .ajax-progress{ position:absolute; right:0.1rem; background:transparent;padding-right:1rem;}
-.content-section .fancytree-node.fancytree-has-children .ajax-progress{ position:absolute; right:0.1rem;}
-*/
-.content-section .fancytree-container li > .ajax-progress {
-  position: absolute;
-  top: 0.15rem;
-  right: 0.1rem;
-  background: #fff;
-  padding: 0.1rem 0.5rem;
-}
-
-.content-section .fancytree-title a {
-  color: #444;
-}
-
-.content-section .fancytree-title a:hover,
-.content-section .fancytree-title a:active {
-  color: #111;
-}
-
-.content-section .fancytree-title {
-  color: #444;
-  margin: 0 0 0 -24px;
-  padding-left: 15px;
-  line-height: 1.68em;
-  height: 1.62em;
-  box-sizing: content-box;
-}
-
-.content-section .fancytree-title:hover,
-.content-section .fancytree-title:active {
-  color: #111;
-/*background:#fff;*/
-}
 
 .content-section .fancytree-title::before {
-  background: #fff;
-  color: transparent;
-  font-family: 'shanticon';
-  content: '\e625';
   font-size: 1em;
-  float: left;
-  position: relative;
-  top: 0.6rem;
-  right: 0.2rem;
-  border-radius: 50%;
-  background-clip: padding-box;
-  width: 9px;
-  height: 9px;
-  display: block;
-  margin-right: 7px;
-  box-shadow: 0 0 2px 1px #aaa;
-  border-collapse: separate;
 }
 
-.content-section .fancytree-title:hover::before {
-  background: #777;
-  box-shadow: none;
-}
-
-.content-section .fancytree-statusnode-wait .fancytree-title::before,
-.content-section .fancytree-statusnode-error .fancytree-title::before {
-  width: 0;
-  height: 0;
-  display: none;
-  color: transparent;
-  box-shadow: none;
-  background: transparent;
-}
-
-.content-section .fancytree-has-children>span.fancytree-title {
-  padding-left: 10px;
-  margin-left: -15px;
-}
-
-.content-section .fancytree-has-children span.fancytree-title::before {
-  content: none;
-  position: relative;
-  top: 0;
-}
-
-.content-section .fancytree-container .fancytree-active .fancytree-title,
-.content-section .fancytree-container .fancytree-selected .fancytree-title {
-  color: #000;
-}
-
-.content-section .fancytree-container .fancytree-active.fancytree-has-children .fancytree-title::before,
-.content-section .fancytree-container .fancytree-selected.fancytree-has-children .fancytree-title::before {
-  content: none;
-  text-shadow: none;
-  display: none;
-}
-
-.content-section .fancytree-container .fancytree-active .fancytree-title::before,
-.content-section .fancytree-container .fancytree-selected .fancytree-title::before {
-  background: #888;
-  box-shadow: none;
-}
 
 .content-section .fancytree-container .glyphicon {
   color: #666;
@@ -528,17 +394,5 @@ a#long-detail.active {
   margin-right: 12px;
   position: relative;
   top: 4px;
-}
-
-.content-section .fancytree-container .fancytree-node:hover > .glyphicon {
-  color: #888;
-}
-
-.content-section .fancytree-container .fancytree-node.fancytree-active:active > .glyphicon,
-.content-section .fancytree-container .fancytree-node.fancytree-active .glyphicon,
-.content-section .fancytree-container .fancytree-node.fancytree-selected:active > .glyphicon,
-.content-section .fancytree-container .fancytree-node.fancytree-selected .glyphicon {
-  color: #666;
-  background: transparent;
 }
 
