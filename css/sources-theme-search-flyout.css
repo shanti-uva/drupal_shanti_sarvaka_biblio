@@ -384,9 +384,12 @@ a.open-search-field {
   display: none;
 }
 
-.listview .form-item-advanced-biblio-publication-type label,
-.listview .form-item.form-item-advanced-search-publication-year label{
+.listview .form-item-advanced-biblio-publication-type label{
   display:block;
+}
+
+.listview .form-item-advanced-search-publication-year label{
+  display: inline;
 }
 
 /*
