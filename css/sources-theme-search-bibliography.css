@@ -471,7 +471,7 @@ a#long-detail.active {
   background-clip: padding-box;
   width: 9px;
   height: 9px;
-  display: block;
+  display: block; display:none;
   margin-right: 7px;
   box-shadow: 0 0 2px 1px #aaa;
   border-collapse: separate;
@@ -527,7 +527,7 @@ a#long-detail.active {
   font-size: 15px;
   margin-right: 12px;
   position: relative;
-  top: 4px;
+  top: 0.05rem;
 }
 
 .main-col .fancytree-container .fancytree-node:hover > .glyphicon {
@@ -542,3 +542,8 @@ a#long-detail.active {
   background: transparent;
 }
 
+
+.main-col .fancytree-exp-n .fancytree-expander{
+  position: relative;
+  left: 0.075rem;
+}
