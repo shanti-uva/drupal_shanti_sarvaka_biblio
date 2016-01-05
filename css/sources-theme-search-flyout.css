@@ -365,10 +365,22 @@ a.open-search-field {
   display:none;
 } 
 
-.listview .fieldset-wrapper .form-item-advanced-biblio-publication-type{
+.listview .form-item-advanced-biblio-publication-type{
   margin-top: -1rem;
-  margin-bottom:0;
+  margin-bottom:-2rem;
 }
+
+.listview .form-item-advanced-biblio-publication-type .bootstrap-select.btn-group:not(.input-group-btn){
+  margin-bottom: 0;
+}
+
+
+.form-item.form-item-advanced-search-publication-year{
+  margin-top: 0.5rem;
+  margin-bottom: 0em;
+}
+
+
 
 /*
 .listview .fieldset-wrapper .form-item:nth-of-type(2){
