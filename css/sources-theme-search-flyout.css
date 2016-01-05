@@ -409,7 +409,7 @@ a.open-search-field {
 
 button#edit-submit.btn.btn-primary.form-submit,
 button#edit-clear.btn.btn-primary.form-submit{
-  display:none;
+  display:none !important;
 }
 
 
