@@ -14,7 +14,7 @@
 
 .treeview .fancytree-exp-n .fancytree-expander,
 .treeview .fancytree-exp-nl .fancytree-expander{
-  margin-left: -0.25rem;
+  margin-left: -0.075rem;
 }
 
 
@@ -23,7 +23,7 @@
 }
 
 .custom-pager .custom-pager-right{
-  border-left:none;
+  border-left:none ;
 }
 
 

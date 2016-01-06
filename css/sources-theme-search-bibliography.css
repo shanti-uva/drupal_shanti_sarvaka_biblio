@@ -120,6 +120,15 @@
   padding: 35px 24px 8px 24px;
 }
 
+
+
+
+
+
+
+
+
+
 /* Custom Sort Option */
 
 #block-sources-views-custom-sort-filter .bootstrap-select.select-wrapper .btn {
@@ -203,6 +212,12 @@
   position: absolute;
   margin-top: -1px;
 }
+
+
+
+
+
+
 
 /* Level Detail Option */
 
@@ -293,12 +308,18 @@ a#long-detail.active {
   z-index: 10000;
 }
 
+
+
+
+
+
 .custom-pager {
   padding: 0 24px;
-  font-size: 0.938em;
+  font-size: 0.75em;
   font-family: 'museo-sans-500',Helvetica,Arial,sans-serif;
   overflow: auto;
   width: 100%;
+  color: #333;
 }
 
 .custom-pager .custom-pager-right .pager li,
@@ -329,6 +350,7 @@ a#long-detail.active {
   width: auto;
   display: inline-block;
   float: left;
+  font-size:0.93em;
 }
 
 .custom-pager .custom-pager-right {
