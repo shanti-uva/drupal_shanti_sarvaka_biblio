@@ -19,7 +19,7 @@
 
 
 .view-section .fancytree-title{
-  margin-left: -2.5rem;
+  margin-left: -2.55rem;
 }
 
 
@@ -194,7 +194,7 @@
 .main-col .fancytree-exp-n .fancytree-expander,
 .main-col .fancytree-exp-nl .fancytree-expander{
   position: relative;
-  left: 0.075rem;
+  left: 0.055rem;
   top: 0.4rem;
 }
 
