@@ -15,7 +15,7 @@
 .treeview .fancytree-exp-n .fancytree-expander,
 .treeview .fancytree-exp-nl .fancytree-expander{
   margin-left: -0.1rem;
-  background: none !important;
+  background-image: none !important;
 }
 
 
@@ -178,7 +178,7 @@
   font-size: 15px;
   margin-right: 12px;
   position: relative;
-  top: 0.25rem;
+  top: 0.4rem;
 }
 
 .main-col .fancytree-container .fancytree-node:hover > .glyphicon {
@@ -261,7 +261,7 @@
   margin-right: 7px;
   box-shadow: 0 0 2px 1px #aaa;
   border-collapse: separate;
-  background-image: none;
+  background-image: none !important;
 }
 
 .main-col .fancytree-exp-n.on-hover .fancytree-expander,
