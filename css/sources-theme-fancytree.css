@@ -31,10 +31,6 @@
   margin-left: 2px;
   box-shadow: 0 0 2px 1px #aaa;
   border-collapse: separate;
-}
-
-span.fancytree-expander {
-  margin-top: 2px;
   background-image: none;
 }
 
@@ -231,6 +227,7 @@ span.fancytree-expander {
 .main-col .fancytree-exp-n .fancytree-expander{
   position: relative;
   left: 0.075rem;
+  top: 0.4rem;
 }
 
 
