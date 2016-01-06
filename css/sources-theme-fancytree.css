@@ -194,12 +194,7 @@
 }
 
 
-.main-col .fancytree-exp-n .fancytree-expander,
-.main-col .fancytree-exp-nl .fancytree-expander{
-  position: relative;
-  left: 0.055rem;
-  top: 0.4rem;
-}
+
 
 
 
@@ -245,8 +240,10 @@
 
 
 
-.fancytree-exp-n .fancytree-expander,
-.fancytree-exp-nl .fancytree-expander {
+
+
+.main-col .fancytree-exp-n .fancytree-expander,
+.main-col .fancytree-exp-nl .fancytree-expander {
   background: #fff;
   color: transparent;
   font-family: 'shanticon';
@@ -255,22 +252,22 @@
   float: left;
   position: relative;
   top: 0.45rem;
+  left: 0.055rem;
   border-radius: 50%;
   background-clip: padding-box;
   width: 9px;
   height: 9px;
   display: block;
   margin-right: 7px;
-  margin-left: 2px;
   box-shadow: 0 0 2px 1px #aaa;
   border-collapse: separate;
   background-image: none;
 }
 
-.fancytree-exp-n.on-hover .fancytree-expander,
-.fancytree-exp-nl.on-hover .fancytree-expander,
-.fancytree-active.fancytree-exp-n .fancytree-expander,
-.fancytree-active.fancytree-exp-nl .fancytree-expander {
+.main-col .fancytree-exp-n.on-hover .fancytree-expander,
+.main-col .fancytree-exp-nl.on-hover .fancytree-expander,
+.main-col .fancytree-active.fancytree-exp-n .fancytree-expander,
+.main-col .fancytree-active.fancytree-exp-nl .fancytree-expander {
   background: #777;
   box-shadow: none;
 }
