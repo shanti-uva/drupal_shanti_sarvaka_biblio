@@ -414,12 +414,12 @@ a.open-search-field {
 
 
 
-/*** hiding search buttons ***/
+/*** hiding search buttons 
 button#edit-submit.btn.btn-primary.form-submit,
 button#edit-clear.btn.btn-primary.form-submit{
   display:none !important;
 }
-
+***/
 
 
 
