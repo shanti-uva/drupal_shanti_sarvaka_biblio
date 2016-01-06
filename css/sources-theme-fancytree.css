@@ -12,49 +12,10 @@
   background: none;
 }
 
-
-
-
-
-
-
-
-
-
-.fancytree-exp-n .fancytree-expander,
-.fancytree-exp-nl .fancytree-expander {
-  background: #fff;
-  color: transparent;
-  font-family: 'shanticon';
-  content: '\e625';
-  font-size: 1em;
-  float: left;
-  position: relative;
-  top: 0.45rem;
-  border-radius: 50%;
-  background-clip: padding-box;
-  width: 9px;
-  height: 9px;
-  display: block;
-  margin-right: 7px;
-  margin-left: 2px;
-  box-shadow: 0 0 2px 1px #aaa;
-  border-collapse: separate;
-  background-image: none;
-}
-
-.fancytree-exp-n.on-hover .fancytree-expander,
-.fancytree-exp-nl.on-hover .fancytree-expander,
-.fancytree-active.fancytree-exp-n .fancytree-expander,
-.fancytree-active.fancytree-exp-nl .fancytree-expander {
-  background: #777;
-  box-shadow: none;
-}
-
 .treeview .fancytree-exp-n .fancytree-expander,
 .treeview .fancytree-exp-nl .fancytree-expander{
   margin-left: -0.075rem;
-  background-image:none;
+  background-image: none;
 }
 
 
@@ -63,7 +24,7 @@
 }
 
 .custom-pager .custom-pager-right{
-  border-left:none ;
+  border-left: none;
 }
 
 
@@ -281,6 +242,38 @@
   background: transparent;
 }
 
+
+
+
+.fancytree-exp-n .fancytree-expander,
+.fancytree-exp-nl .fancytree-expander {
+  background: #fff;
+  color: transparent;
+  font-family: 'shanticon';
+  content: '\e625';
+  font-size: 1em;
+  float: left;
+  position: relative;
+  top: 0.45rem;
+  border-radius: 50%;
+  background-clip: padding-box;
+  width: 9px;
+  height: 9px;
+  display: block;
+  margin-right: 7px;
+  margin-left: 2px;
+  box-shadow: 0 0 2px 1px #aaa;
+  border-collapse: separate;
+  background-image: none;
+}
+
+.fancytree-exp-n.on-hover .fancytree-expander,
+.fancytree-exp-nl.on-hover .fancytree-expander,
+.fancytree-active.fancytree-exp-n .fancytree-expander,
+.fancytree-active.fancytree-exp-nl .fancytree-expander {
+  background: #777;
+  box-shadow: none;
+}
 
 
 
