@@ -12,6 +12,15 @@
   background: none;
 }
 
+
+
+
+
+
+
+
+
+
 .fancytree-exp-n .fancytree-expander,
 .fancytree-exp-nl .fancytree-expander {
   background: #fff;
@@ -43,18 +52,19 @@
 }
 
 .treeview .fancytree-exp-n .fancytree-expander,
-.treeview .fancytree-exp-nl .fancytree-expander {
-  background: none;
-  box-shadow: none;
-  content: none;
+.treeview .fancytree-exp-nl .fancytree-expander{
+  margin-left: -0.075rem;
+  background-image:none;
 }
 
 
+.view-section .fancytree-title{
+  margin-left: -2.55rem;
+}
 
-
-
-
-
+.custom-pager .custom-pager-right{
+  border-left:none ;
+}
 
 
 
@@ -124,7 +134,7 @@
 
 .main-col .fancytree-title {
   color: #444;
-  margin: 0 0 0 -1rem;
+  margin: 0 0 0 -0.8rem;
   padding-left: 15px;
   line-height: 1.68em;
   height: 1.62em;
@@ -223,9 +233,10 @@
 }
 
 
-.main-col .fancytree-exp-n .fancytree-expander{
+.main-col .fancytree-exp-n .fancytree-expander,
+.main-col .fancytree-exp-nl .fancytree-expander{
   position: relative;
-  left: 0.075rem;
+  left: 0.055rem;
   top: 0.4rem;
 }
 
@@ -235,6 +246,40 @@
 
 
 
+.main-col .view-section .fancytree-title::before {
+  background: #fff;
+  color: transparent;
+  font-family: 'shanticon';
+  content: '\e625';
+  font-size: 1em;
+  float: left;
+  position: relative;
+  top: 0.6rem;
+  right: 0.2rem;
+  border-radius: 50%;
+  background-clip: padding-box;
+  width: 9px;
+  height: 9px;
+  display: block;
+  margin-right: 7px;
+  box-shadow: 0 0 2px 1px #aaa;
+  border-collapse: separate;
+}
+
+.main-col .view-section .fancytree-title:hover::before {
+  background: #777;
+  box-shadow: none;
+}
+
+.main-col .view-section .fancytree-statusnode-wait .fancytree-title::before,
+.main-col .view-section .fancytree-statusnode-error .fancytree-title::before {
+  width: 0;
+  height: 0;
+  display: none;
+  color: transparent;
+  box-shadow: none;
+  background: transparent;
+}
 
 
 
