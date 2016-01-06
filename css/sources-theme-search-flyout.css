@@ -403,6 +403,10 @@ a.open-search-field {
 }
 */
 
+.view-section .tab-content{
+  border: 1px solid #ddd;
+  border-width: 0 1px 0;
+}
 
 .view-section .tab-content .tab-pane{
   padding: 0 5px;
