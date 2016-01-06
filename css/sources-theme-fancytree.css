@@ -22,7 +22,9 @@
   margin-left: -2.55rem;
 }
 
-
+.custom-pager .custom-pager-right{
+  border-left:none;
+}
 
 
 
