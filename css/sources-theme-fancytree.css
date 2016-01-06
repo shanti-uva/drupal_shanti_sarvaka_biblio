@@ -14,7 +14,7 @@
 
 .treeview .fancytree-exp-n .fancytree-expander,
 .treeview .fancytree-exp-nl .fancytree-expander{
-  margin-left: -0.075rem;
+  margin-left: -0.01rem;
   background-image: none;
 }
 
@@ -251,8 +251,8 @@
   font-size: 1em;
   float: left;
   position: relative;
-  top: 0.45rem;
-  left: 0.055rem;
+  top: 0.65rem;
+  left: 0.25rem;
   border-radius: 50%;
   background-clip: padding-box;
   width: 9px;
