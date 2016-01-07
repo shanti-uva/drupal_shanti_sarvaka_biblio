@@ -376,3 +376,6 @@ a#long-detail.active {
 }
 
 
+.custom-sort-container .selectpicker>li>a .check-mark{
+  float: right
+}
