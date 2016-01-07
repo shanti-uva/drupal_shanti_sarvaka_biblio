@@ -422,13 +422,9 @@ button#edit-clear.btn.btn-primary.form-submit{
 ***/
 
 #sources-views-advanced-search-form button.btn.btn-primary.form-submit{
-  padding: .5em 1em .38em !important;
+  padding: .5em 1em .25em !important;
   font-size: 0.82em !important;
   width:35% !important;
-}
-
-#sources-views-advanced-search-form button#edit-submit{
-  float: right !important;
 }
 
 #sources-views-advanced-search-form button#edit-clear{
@@ -443,19 +439,20 @@ button#edit-clear.btn.btn-primary.form-submit{
   color:red !important;
 }
 
-#sources-views-advanced-search-form button#edit-clear::before{
-  content:'x';
+#sources-views-advanced-search-form button#edit-clear::after{
+  content:'X';
   position:relative;
   color:#555;
-  margin-right: 0.4rem;
-  text-transform:capitalize;
+  margin-left: 0.4rem;
 }
 
-#sources-views-advanced-search-form button#edit-clear:hover::before{
+#sources-views-advanced-search-form button#edit-clear:hover::after{
   color:red;
 }
 
-
+#sources-views-advanced-search-form button#edit-clear span{
+    text-transform:capitalize;
+}
 
 
 
