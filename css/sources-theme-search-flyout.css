@@ -427,22 +427,31 @@ button.btn.btn-primary.form-submit{
   width:35%;
 }
 
-button#edit-clear.btn.btn-primary.form-submit{
+button#edit-submit{
+  float: right;
+}
+
+button#edit-clear{
   background: transparent;
   color: #555;
   box-shadow: none;
 }
 
-button#edit-clear.btn.btn-primary.form-submit:hover,
-button#edit-clear.btn.btn-primary.form-submit:active{
+button#edit-clear:hover,
+button#edit-clear:active{
   background: transparent;
+  color:red;
 }
 
-button#edit-clear.btn.btn-primary.form-submit::before{
+button#edit-clear::before{
   content:'X';
   position:relative;
   color:#555;
+  margin-right: 0.4rem;
+  text-transform:capitalize;
 }
 
-
+button#edit-clear:hover::before{
+  color:red;
+}
 
