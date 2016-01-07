@@ -421,6 +421,28 @@ button#edit-clear.btn.btn-primary.form-submit{
 }
 ***/
 
+button.btn.btn-primary.form-submit{
+  padding: .5em 1em .38em;
+  font-size: 0.82em;
+  width:35%;
+}
+
+button#edit-clear.btn.btn-primary.form-submit{
+  background: transparent;
+  color: #555;
+  box-shadow: none;
+}
+
+button#edit-clear.btn.btn-primary.form-submit:hover,
+button#edit-clear.btn.btn-primary.form-submit:active{
+  background: transparent;
+}
+
+button#edit-clear.btn.btn-primary.form-submit::before{
+  content:'X';
+  position:relative;
+  color:#555;
+}
 
 
 
