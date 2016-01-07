@@ -379,3 +379,23 @@ a#long-detail.active {
 .custom-sort-container .selectpicker>li>a .check-mark{
   float: right
 }
+
+
+
+div.ctools-modal-content .modal-content{
+  padding: 2rem 15%;
+  box-shadow:none !important;
+  border:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
