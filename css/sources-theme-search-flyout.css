@@ -444,7 +444,7 @@ button#edit-clear.btn.btn-primary.form-submit{
 }
 
 #sources-views-advanced-search-form button#edit-clear::before{
-  content:'X';
+  content:'x';
   position:relative;
   color:#555;
   margin-right: 0.4rem;
@@ -454,4 +454,20 @@ button#edit-clear.btn.btn-primary.form-submit{
 #sources-views-advanced-search-form button#edit-clear:hover::before{
   color:red;
 }
+
+
+
+
+
+#block-sources-views-custom-sort-filter .content .right-side{
+  float:left;
+}
+
+
+
+
+
+
+
+
 
