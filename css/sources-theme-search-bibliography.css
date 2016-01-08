@@ -78,10 +78,14 @@
 }
 
 .view-biblio-search-api .views-field-title {
-  font-size: 1.25em;
+  font-size: 1.12em;
   font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
   overflow: hidden;
   display: block;
+}
+
+.content-section a{
+  color: #00656d;
 }
 
 .page-sources-search .views-row {
