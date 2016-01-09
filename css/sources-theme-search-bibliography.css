@@ -21,7 +21,7 @@
 .page-sources-search .main-content .content-section .view-content,
 .page-sources-search .main-content .content-section .view-empty {
   padding: 12px 12px 8px 24px;
-  float: left;
+  /* float: left; mf8yk removed 01/08/16 */
   display: inline-block;
   max-width: 100%;
 }
