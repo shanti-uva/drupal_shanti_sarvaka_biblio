@@ -401,6 +401,11 @@ a.open-search-field {
   display: inline;
 }
 
+.listview .form-item-advanced-search-publication-year label.radio-inline{
+  position: relative;
+  top: 0.1rem;
+}
+
 .listview .form-item{
   margin-bottom: 1rem;
 }
