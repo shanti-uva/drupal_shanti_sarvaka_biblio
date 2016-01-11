@@ -300,7 +300,7 @@ a.open-search-field {
 
 #sources-views-advanced-search-form .form-submit {
   width: 45%;
-  float: right;
+  float: left;  
   display: inline-block;
   margin: 10px 0;
 }
