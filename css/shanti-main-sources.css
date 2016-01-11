@@ -9,7 +9,7 @@
 .main-content .selectpicker .caret::before,
 .view-id-biblio_search_api li a,
 .input-section .selectpicker .caret::before {
-  color: #006a73;
+  color: #006a73 !important;
 }
 
 .navbar-brand:active .site-slogan,
