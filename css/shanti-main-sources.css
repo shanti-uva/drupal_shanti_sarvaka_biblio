@@ -176,6 +176,7 @@
 #block-sources-views-custom-sort-filter {
   text-align: right;
   clear: both;
+  height: 4rem;
 }
 
 #block-sources-views-custom-sort-filter span.select-wrapper {
