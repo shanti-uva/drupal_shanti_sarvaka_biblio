@@ -176,7 +176,8 @@
 #block-sources-views-custom-sort-filter {
   text-align: right;
   clear: both;
-  height: 4rem;
+  height: 3em;
+  padding: 0 2.4rem 0.8rem 4.2rem;
 }
 
 #block-sources-views-custom-sort-filter span.select-wrapper {
@@ -188,11 +189,7 @@
   width: 80%;
   position: relative;
   z-index: 1;
-}
-
-#block-sources-views-custom-sort-filter {
-  padding: 0 24px 8px 42px;
-}
+}	
 
 #block-sources-views-custom-sort-filter .content .left-side {
   width: auto;
