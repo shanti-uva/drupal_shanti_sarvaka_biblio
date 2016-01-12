@@ -777,9 +777,9 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container a {
-  padding-left: 40px;
+  padding-left: 40px !important;
   text-transform: capitalize !important;
-  font-family: 'museo-sans-700', sans-serif;
+  font-family: 'museo-sans-700', sans-serif !important;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
