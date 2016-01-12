@@ -763,7 +763,9 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top {
-  padding: 17px 23px 17px 23px;
+  font-size: 70%;
+  font-weight:bold;
+  padding-top:1.5rem;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container {
