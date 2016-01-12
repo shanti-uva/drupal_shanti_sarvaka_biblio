@@ -763,7 +763,7 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top {
-  font-size: 70%;
+  font-size: 90%;
   font-weight:bold;
   padding-top:1.5rem;
 }
@@ -777,7 +777,9 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container a {
-  padding-left: 50px;
+  padding-left: 40px;
+  text-transform: capitalize !important;
+  font-family: 'museo-sans-700', sans-serif;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
