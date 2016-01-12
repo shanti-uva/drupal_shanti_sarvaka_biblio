@@ -766,6 +766,7 @@ a#long-detail.active {
   font-size: 90%;
   font-weight:bold;
   padding-top:1.5rem;
+  font-family: 'museo-sans-700', sans-serif !important;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container {
@@ -779,7 +780,6 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container a {
   padding-left: 40px !important;
   text-transform: capitalize !important;
-  font-family: 'museo-sans-700', sans-serif !important;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
