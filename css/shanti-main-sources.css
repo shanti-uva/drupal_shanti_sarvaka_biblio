@@ -1,7 +1,6 @@
 /* BEGIN custom theme colors */
-
 .titlearea.banner {
-  background: #008a96 !important;
+  background: #009caa !important;
 }
 
 .content-section a,
@@ -17,8 +16,7 @@
   color: #444 !important;
 }
 
-
-
+/* END theme colors */
 
 
 
