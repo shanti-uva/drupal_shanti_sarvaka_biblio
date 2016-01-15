@@ -788,15 +788,15 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container {
-  padding: 0 23px 17px 23px;
+  padding: 0 2.3rem 1.7rem;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container {
-  padding: 17px 23px 0 23px;
+  padding: 1.7rem 2.3rem 0;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container a {
-  padding-left: 40px !important;
+  padding-left: 4rem !important;
   text-transform: capitalize !important;
 }
 
@@ -805,11 +805,11 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
-  padding: 1rem 0.3rem 0.5rem 1.3rem;
+  padding: 0.7rem 0.3rem 0.2rem 1.3rem;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
-	padding: 0 7px 7px 13px;
+	padding: 0 0.7rem 2rem 1.3rem;
 	margin-top: -0.5rem;
 }
 
