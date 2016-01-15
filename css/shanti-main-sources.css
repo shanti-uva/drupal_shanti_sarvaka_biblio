@@ -44,8 +44,8 @@
 .page-sources-search .main-content .content-section .view-empty {
   padding: 12px 12px 8px 24px;
   /* float: left; mf8yk removed 01/08/16 */
-  display: inline-block;
-  max-width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .page-sources-search .main-content .content-section .view-empty p {
@@ -112,7 +112,7 @@
 
 .page-sources-search .views-row {
   overflow: hidden;
-  min-height: 60px;
+  min-height: 45px;
   padding: 10px 0 10px 0;
   margin: 0 auto;
   border-top: 1px solid #fff;
@@ -122,6 +122,7 @@
 .page-sources-search .views-row .glyphicon {
   color: #008a96;
   margin-right: 0.75rem;
+  margin-left: 1.5rem;
 }
 
 .page-sources-search .views-field-field-zotero-tags ul {
@@ -762,10 +763,23 @@ a#long-detail.active {
   background-position: left center;
 }
 
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-top a{
+	line-height: 1.62em;
+	padding-left: 30px;
+	background:none;
+	color:#fff;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-top a:hover,
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-top a:active{
+	text-decoration: underline;
+}
+
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top {
   font-size: 80%;
   font-weight:bold;
-  padding-top:1.5rem;
+  padding-top: 1.25rem;
+  background: #555;
   font-family: 'Helvetica Neue', helvetica, arial, sans-serif !important;
 }
 
@@ -787,12 +801,12 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
-  padding: 15px 23px 8px 23px;
+  padding: 0 3px 5px 13px;
+  margin-top: -.5rem
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
-  padding: 0 23px 15px 23px;
-  margin-top: -7px;
+	padding: 0 7px 7px 13px;
 }
 
 .breadcrumb-child-container .breadcrumb-child-top,
@@ -805,7 +819,12 @@ a#long-detail.active {
 }
 
 
-
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown, 
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container{
+	padding-top: 0px;
+	margin-top: 1rem !important;
+	background:none;
+}
 
 
 
