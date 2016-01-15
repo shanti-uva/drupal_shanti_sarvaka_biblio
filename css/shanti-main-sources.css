@@ -775,11 +775,16 @@ a#long-detail.active {
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top {
-  font-size: 80%;
+  /*font-size: 80%;
   font-weight:bold;
-  padding-top: 1.25rem;
+  padding-top: 1.25rem;*/
   background: #555;
-  font-family: 'Helvetica Neue', helvetica, arial, sans-serif !important;
+  /*font-family: 'Helvetica Neue', helvetica, arial, sans-serif !important;*/
+
+  	font-size: 0;
+	border-bottom: 7px double #fff;
+	font-weight: bold;
+	height: 1.25rem;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container {
