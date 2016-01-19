@@ -663,8 +663,6 @@ a#long-detail.active {
 
 
 
-
-
 /****************************/
 /***** BREADCRUMBS **********/
 /****************************/
@@ -846,6 +844,13 @@ a#long-detail.active {
 	padding-top: 0px;
 	margin-top: 1rem !important;
 	background:none;
+}
+
+
+
+span.fancytree-expander.glyphicon.glyphicon-plus-sign{
+	position: relative;
+	top:0.3rem;
 }
 
 
