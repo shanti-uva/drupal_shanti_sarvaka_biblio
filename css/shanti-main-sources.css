@@ -17,11 +17,11 @@
 }
 
 ::-moz-selection{
-  background: #731f00 !important;
+  background: #c0532f !important;
 }
 
 ::selection {
-  background: #731f00 !important;
+  background: #c0532f !important;
 }
 /* END theme colors */
 
