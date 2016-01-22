@@ -16,7 +16,10 @@
   color: #444 !important;
 }
 
-::-moz-selection, 
+::-moz-selection{
+  background: #731f00 !important;
+}
+
 ::selection {
   background: #731f00 !important;
 }
