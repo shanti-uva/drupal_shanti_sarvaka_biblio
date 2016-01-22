@@ -16,6 +16,10 @@
   color: #444 !important;
 }
 
+::-moz-selection, 
+::selection {
+  background: #731f00 !important;
+}
 /* END theme colors */
 
 
