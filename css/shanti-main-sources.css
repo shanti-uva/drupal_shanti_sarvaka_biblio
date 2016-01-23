@@ -700,7 +700,7 @@ a#long-detail.active {
   /**  Keep this hidden container from blocking clicks */
 }
 
-#block-sources-views-custom-taxonomy-breadcrumb ul {
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child ul {
   padding: 0;
   list-style: none;
   padding-bottom: 1.5rem;
