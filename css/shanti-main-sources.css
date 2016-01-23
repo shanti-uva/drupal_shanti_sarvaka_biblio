@@ -678,7 +678,8 @@ a#long-detail.active {
    position:relative;
 }
 
-.breadcrumb-child-top::after{
+#block-sources-views-custom-taxonomy-breadcrumb .library-dropdown::after, 
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container::after{
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -855,10 +856,15 @@ a#long-detail.active {
 
 
 
-span.fancytree-expander.glyphicon.glyphicon-plus-sign{
-	position: relative;
-	top:0.3rem;
-}
+
+
+
+
+
+
+
+
+
 
 
 
