@@ -57,6 +57,7 @@
 #date-range-slider .ui-slider-range,
 #date-range-slider-dropdown .ui-slider-range {
   background: none;
+  background: #009caa;
 }
 
 #date-range-slider .ui-slider-handle,
@@ -296,6 +297,8 @@ a.open-search-field {
   max-width: 90px;
   display: inline-block;
   float: left;
+  background: #009caa;
+  font-weight: bold;
 }
 
 #sources-views-advanced-search-form .form-submit {
