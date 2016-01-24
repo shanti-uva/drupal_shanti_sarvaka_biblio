@@ -866,7 +866,9 @@ a#long-detail.active {
 
 
 
-
+.kWidgetIframeContainer{
+  max-width: 320px !important;
+}
 
 
 
