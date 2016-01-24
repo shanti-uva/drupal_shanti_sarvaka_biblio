@@ -703,7 +703,7 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child ul:first-of-type {
   padding: 0;
   list-style: none;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0;
   margin-bottom: 0; 
   clear: left;
   border: none;
@@ -841,6 +841,14 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
 	padding: 0 0.7rem 0 1.3rem;
   margin-top: 0rem;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child ul:first-of-type{
+  margin-left:0;
+}
+
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child > div > ul:last-of-type{
+  padding-bottom: 1.5rem; 
 }
 
 .breadcrumb-child-container .breadcrumb-child-top,
