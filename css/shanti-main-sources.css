@@ -835,6 +835,7 @@ a#long-detail.active {
   list-style: none;
   -webkit-padding-start: 0px;
   padding-left: 0px;
+  margin:0;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
