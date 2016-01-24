@@ -843,12 +843,12 @@ a#long-detail.active {
   margin-top: 0rem;
 }
 
-#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child ul:first-of-type{
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child > div > ul{
   margin-left:0;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child > div > ul:last-of-type{
-  padding-bottom: 1.5rem; 
+  padding-bottom: 1.5rem;
 }
 
 .breadcrumb-child-container .breadcrumb-child-top,
