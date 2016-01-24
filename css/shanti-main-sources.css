@@ -692,7 +692,7 @@ a#long-detail.active {
 }
 
 
-.breadcrumb-dropdown {
+#block-sources-views-custom-taxonomy-breadcrumb {
   height: 30px;
   font-size: 1em;
   color: #FFF;
@@ -700,7 +700,7 @@ a#long-detail.active {
   /**  Keep this hidden container from blocking clicks */
 }
 
-.breadcrumb-dropdown .breadcrumb-child ul:first-of-type {
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child ul:first-of-type {
   padding: 0;
   list-style: none;
   padding-bottom: 1.5rem;
@@ -710,11 +710,11 @@ a#long-detail.active {
   outline: 0;
 }
 
-.breadcrumb-dropdown li ul {
+#block-sources-views-custom-taxonomy-breadcrumb li ul {
   display: none;
 }
 
-.breadcrumb-dropdown ul li a,
+#block-sources-views-custom-taxonomy-breadcrumb ul li a,
 .breadcrumb-child-sub-top a {
   font-family: tahoma, arial, helvetica;
   font-size: 10pt;
