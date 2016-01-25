@@ -728,7 +728,7 @@ a#long-detail.active {
   box-shadow: none;
   background: transparent url(../images/breadcrumb_bubble_arrow.png) no-repeat;
   padding-top: 14px;
-  width: 320px;
+  width: 280px;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
