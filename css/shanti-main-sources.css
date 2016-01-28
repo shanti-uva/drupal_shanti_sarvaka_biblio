@@ -888,23 +888,23 @@ a#long-detail.active {
 
 
 
-.breadcrumb-tree::-webkit-scrollbar{
+.breadcrumb-child ul::-webkit-scrollbar{
   width: 0.5rem;
 }
  
-.breadcrumb-tree::-webkit-scrollbar-track{
+.breadcrumb-child ul::-webkit-scrollbar-track{
   /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.15);
   border-radius: .7rem; */
   /*width: 1.2rem;*/
 }
 
-.breadcrumb-tree::-webkit-scrollbar-thumb{
+.breadcrumb-child ul::-webkit-scrollbar-thumb{
   background-color: #aaa;
   cursor: pointer;
   width: 0.5rem;
 }
 
-.breadcrumb-tree::-webkit-scrollbar-thumb:hover{
+.breadcrumb-child ul::-webkit-scrollbar-thumb:hover{
   background-color: #888;
   cursor: pointer;
 }
