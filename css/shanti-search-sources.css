@@ -487,14 +487,7 @@ button#edit-clear.btn.btn-primary.form-submit{
 
 
 
-.ui-fancytree li a,
-.fancytree-node .fancytree-expander,
-.fancytree-container .fancytree-node:hover > .glyphicon,
-.fancytree-container .glyphicon,
-.fancytree-container .fancytree-node.on-hover .fancytree-expander,
-.fancytree-container .fancytree-node.fancytree-active .glyphicon {
-  color: #008a96 !important;
-}
+
 
 .taxonomy-list-tree .ui-fancytree {
   border: none;
@@ -514,6 +507,11 @@ button#edit-clear.btn.btn-primary.form-submit{
 .view-section .fancytree-title{
   margin-left: -2.55rem;
 }
+
+
+
+
+
 
 .custom-pager .custom-pager-right{
   border-left: none;

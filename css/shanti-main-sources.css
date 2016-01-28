@@ -3,12 +3,21 @@
   background: #009caa !important;
 }
 
+.ui-fancytree li a,
+.fancytree-node .fancytree-expander,
+.fancytree-container .fancytree-node:hover > .glyphicon,
+.fancytree-container .glyphicon,
+.fancytree-container .fancytree-node.on-hover .fancytree-expander,
+.fancytree-container .fancytree-node.fancytree-active .glyphicon {
+  color: #008a96 !important;
+}
+
 .content-section a,
 .navbar-brand:hover .site-slogan,
 .main-content .selectpicker .caret::before,
 .view-id-biblio_search_api li a,
 .input-section .selectpicker .caret::before {
-  color: #006a73 !important;
+  color: #008a96 !important;
 }
 
 .navbar-brand:active .site-slogan,
@@ -716,7 +725,7 @@ a#long-detail.active {
   box-shadow: none;
   background: transparent url(../images/breadcrumb_bubble_arrow.png) no-repeat;
   padding-top: 14px;
-  width: 280px;
+  width: 320px;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
