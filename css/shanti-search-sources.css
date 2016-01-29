@@ -468,41 +468,14 @@ button#edit-clear.btn.btn-primary.form-submit{
 
 
 
-
-
-
-
-
-
-
-
 .main-content .fancytree-has-children > .fancytree-title{
-  margin-left: 0.5rem;
-}
-
-
-
-.fancytree-node .fancytree-expander{
-  background-image: none !important;
+  margin-left: -0.8rem;
 }
 
 .taxonomy-list-tree .ui-fancytree {
   border: none;
   background: none;
 }
-
-/*
-.treeview .fancytree-exp-n .fancytree-expander,
-.treeview .fancytree-exp-nl .fancytree-expander{
-  margin-left: -0.1rem;
-}
-
-.view-section .fancytree-title{
-  margin-left: -2.55rem;
-}
-*/
-
-
 
 
 
