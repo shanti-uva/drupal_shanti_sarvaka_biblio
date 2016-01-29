@@ -480,26 +480,25 @@ button#edit-clear.btn.btn-primary.form-submit{
 
 
 
-
+.fancytree-node .fancytree-expander{
+  background-image: none !important;
+}
 
 .taxonomy-list-tree .ui-fancytree {
   border: none;
   background: none;
 }
 
+/*
 .treeview .fancytree-exp-n .fancytree-expander,
 .treeview .fancytree-exp-nl .fancytree-expander{
   margin-left: -0.1rem;
 }
 
-.fancytree-expander{
- background-image: none !important;
-}
-
-
 .view-section .fancytree-title{
   margin-left: -2.55rem;
 }
+*/
 
 
 
