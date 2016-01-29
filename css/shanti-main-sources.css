@@ -212,7 +212,7 @@
 }
 
 #block-sources-views-custom-sort-filter .content .left-side h1 {
-  font-family: museo-sans-900, sans-serif;
+  font-family: 'museo-sans-900', helvetica, arial, sans-serif;
   text-transform: uppercase;
   color: #333;
   margin: 0;
@@ -240,7 +240,7 @@
 #block-sources-views-custom-sort-filter .select-wrapper select option,
 #block-sources-views-custom-sort-filter .select-wrapper select optgroup {
   font-size: 0.938em;
-  font-family: museo-sans-300, sans-serif;
+  font-family: 'museo-sans-300', helvetica,arial, sans-serif;
 }
 
 #block-sources-views-custom-sort-filter .select-wrapper  .holder {
@@ -432,6 +432,7 @@ a#long-detail.active {
 /*-----------------------------------------------------*/
 /*---- START / Search Tree in central content area ----*/
 /*-----------------------------------------------------*/
+/*
 .main-col .fancytree-container {
   margin: 0;
   background: transparent;
@@ -458,7 +459,8 @@ a#long-detail.active {
   height: 0;
   line-height: 0;
   display: none;
-} /*--- remove checkbox ---*/
+} 
+
 .main-col .fancytree-node {
   border: 1px solid transparent !important;
   display: block;
@@ -472,10 +474,7 @@ a#long-detail.active {
   background: white !important;
   border-color: #eee !important;
 }
-/*
-.main-col .fancytree-node .ajax-progress{ position:absolute; right:0.1rem; background:transparent;padding-right:1rem;}
-.main-col .fancytree-node.fancytree-has-children .ajax-progress{ position:absolute; right:0.1rem;}
-*/
+
 .main-col .fancytree-container li > .ajax-progress {
   position: absolute;
   top: 0.15rem;
@@ -499,13 +498,11 @@ a#long-detail.active {
   padding-left: 15px;
   line-height: 1.68em;
   height: 1.62em;
-  box-sizing: content-box;
 }
 
 .main-col .fancytree-title:hover,
 .main-col .fancytree-title:active {
   color: #111;
-/*background:#fff;*/
 }
 
 .main-col .fancytree-title::before {
@@ -660,7 +657,7 @@ a#long-detail.active {
   box-shadow: none;
 }
 
-
+*/
 
 
 
