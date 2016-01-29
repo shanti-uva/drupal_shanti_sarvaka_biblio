@@ -694,7 +694,7 @@ a#long-detail.active {
   overflow: hidden;
   /**  Keep this hidden container from blocking clicks */
 }
-
+/*
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child ul:first-of-type {
   padding: 0;
   list-style: none;
@@ -717,6 +717,8 @@ a#long-detail.active {
   outline: 0;
   color: #000;
 }
+*/
+
 
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown,
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container {
@@ -738,7 +740,7 @@ a#long-detail.active {
   background-position: 40px top;
   opacity: 0;
 }
-
+/*
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown ul {
   margin-top: 15px;
   padding: 0 23px 15px 23px;
@@ -749,7 +751,7 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown  #column-all-sources {
   padding-top: 15px;
 }
-
+/*
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown  #column-all-sources  ul {
   margin-top: 0;
 }
@@ -758,7 +760,7 @@ a#long-detail.active {
   margin-left: 10px;
   padding: 0;
 }
-
+*/
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown .inner-library,
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .inner-breadcrumb-child-container {
   display: block;
@@ -770,8 +772,8 @@ a#long-detail.active {
   -moz-box-shadow: 0px 10px 27px -10px rgba(46,46,46,1);
   box-shadow: 0px 10px 27px -10px rgba(46,46,46,1);
 }
-
-#block-sources-views-custom-taxonomy-breadcrumb  .breadcrumb-child-top a,
+/*
+#block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-top a,
 #block-sources-views-custom-taxonomy-breadcrumb .view-all-library-container a {
   display: block;
   padding-left: 50px;
@@ -791,7 +793,7 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-top a:active{
 	text-decoration: underline;
 }
-
+*/
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-top {
   /*font-size: 80%;
   font-weight:bold;
@@ -812,7 +814,7 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container {
   padding: 1.7rem 2.3rem 0;
 }
-
+/*
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container a {
   padding-left: 4rem !important;
   text-transform: capitalize !important;
@@ -821,32 +823,32 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .home-link-container a::before{
 
 }
-
+*/
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
   padding: 0.7rem 0.3rem 0.2rem 1.3rem;
 }
-
+/*
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top ul:first-child{
   list-style: none;
   -webkit-padding-start: 0px;
   padding-left: 0px;
   margin:0 0 0 -1rem;
 }
-
+*/
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
 	padding: 0 0.5rem 0.5rem;
   margin-top: 0;
 }
-
+/*
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child > div > ul{
   margin-left:0;
   margin-top: -0.2rem;
 }
 
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child > div > ul:last-of-type{
-  /* padding-bottom: 1.5rem; */
+  -------- padding-bottom: 1.5rem; --------
 }
-
+*/
 .breadcrumb-child-container .breadcrumb-child-top,
 .view-all-library-container {
   border-bottom: 2px solid #f1f3f2;
