@@ -8,10 +8,8 @@
 .fancytree-container .fancytree-node:hover > .glyphicon,
 .fancytree-container .glyphicon,
 .fancytree-container .fancytree-node.on-hover .fancytree-expander,
-.fancytree-container .fancytree-node.fancytree-active .glyphicon {
-  color: #008a96 !important;
-}
-
+.fancytree-container .fancytree-node.fancytree-active .glyphicon,
+.view-section .nav-tabs > li.active > a,
 .content-section a,
 .navbar-brand:hover .site-slogan,
 .main-content .selectpicker .caret::before,
@@ -23,6 +21,10 @@
 .navbar-brand:active .site-slogan,
 .view-id-biblio_search_api .views-field-title a {
   color: #444 !important;
+}
+
+.view-section .nav-tabs > li.active > a {
+  border-top-color: #008a96 !important;
 }
 
 ::-moz-selection{

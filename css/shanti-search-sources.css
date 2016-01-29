@@ -325,17 +325,10 @@ a.open-search-field {
   margin: 0;
 }
 
-#search-flyout .view-section .nav-tabs > li {
+.view-section .nav-tabs > li {
   width: 48%;
 }
 
-#search-flyout .view-section .nav-tabs > li.active > a {
-  color: #008a96;
-}
-
-#search-flyout .view-section .nav-tabs > li.active > a {
-  border-top-color: #008a96 !important;
-}
 
 .searchreset {
   display: none;
@@ -360,7 +353,7 @@ a.open-search-field {
 }
 
 
-#search-flyout .view-section .nav-tabs > li.listview{
+.view-section .nav-tabs > li.listview{
   width: 52%;
   max-width: 16rem;
 }
