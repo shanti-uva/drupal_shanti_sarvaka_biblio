@@ -492,7 +492,10 @@ a#long-detail.active {
   padding: 0 15px;
 }
 
-
+#block-sources-views-custom-taxonomy-breadcrumb .fancytree-node{
+  background-color: #eee !important;
+  border-color: #ccc !important;
+}
 
 
 
@@ -636,7 +639,7 @@ a#long-detail.active {
   margin:0 0 0 -1rem;
 }
 
- .breadcrumb-child-container .breadcrumb-child-sub-top .glyphicon-plus-sign{
+ .breadcrumb-child-container .breadcrumb-child-sub-top .glyphicon{
   position: relative;
   top: 4px;
 }
