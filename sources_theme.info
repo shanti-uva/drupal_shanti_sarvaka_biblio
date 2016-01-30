@@ -30,12 +30,13 @@ regions[admin_footer]   = Admin Footer
 stylesheets[all][] =  css/shanti-main-sources.css
 stylesheets[all][] =  css/shanti-search-sources.css
 
-; stylesheets[all][] =  css/sources-theme.css - mf8yk, replaced w/shanti-main-sources
-; stylesheets[all][] =  css/sources-theme-search-bibliography.css - mf8yk, replaced w/shanti-main-sources
-; stylesheets[all][] =  css/sources-theme-breadcrumb.css
-; stylesheets[all][] =  css/sources-theme-search-flyout.css - mf8yk, replaced
-; stylesheets[all][] =  css/sources-theme-biblio-full-page.css - mf8yk, replaced
-; stylesheets[all][] =  css/sources-theme-fancytree.css - mf8yk, replaced
+; - mf8yk, all below moved to w/shanti-main-sources or shanti-search-sources
+; stylesheets[all][] =  css/sources-theme.css 
+; stylesheets[all][] =  css/sources-theme-search-bibliography.css 
+; stylesheets[all][] =  css/sources-theme-breadcrumb.css 
+; stylesheets[all][] =  css/sources-theme-search-flyout.css 
+; stylesheets[all][] =  css/sources-theme-biblio-full-page.css 
+; stylesheets[all][] =  css/sources-theme-fancytree.css 
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;;; Scripts
@@ -44,7 +45,7 @@ stylesheets[all][] =  css/shanti-search-sources.css
 ; scripts[] = js/shanti-main-sources.js - mf8yk, not being used
 scripts[] = js/shanti-search-sources.js
 
-; scripts[] = js/sources-theme-search-flyout.js - mf8yk, replaced
+; scripts[] = js/sources-theme-search-flyout.js - mf8yk, renamed to shanti-search-sources
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Settings   
@@ -53,5 +54,4 @@ scripts[] = js/shanti-search-sources.js
 ; These theme settings can be changed in the admin interface as well.
 ; Furthermore, base color is primarily determined in CSS
 ;
-;settings[shanti_sarvaka_base_color] = '#dc3c47' 
-;settings[shanti_sarvaka_icon_class] = 'av'
+
