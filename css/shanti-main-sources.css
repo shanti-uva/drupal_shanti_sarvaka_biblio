@@ -139,6 +139,8 @@
 .page-sources-search .views-row .glyphicon {
   color: #008a96;
   margin-right: 0.8rem;
+  position: relative;
+  top: 1px;
 }
 
 .page-sources-search .views-field-field-zotero-tags ul {
@@ -339,11 +341,11 @@ a#long-detail.active {
 .page-sources-search  .pager {
   display: none;
 }
-
+/*
 .page-sources-search .attachment.attachment-after {
   background: #eaeceb;
 }
-
+*/
 .page-sources-search .attachment.attachment-after.expanded {
   position: relative;
   z-index: 10000;
@@ -425,253 +427,17 @@ a#long-detail.active {
 
 
 
-
-
-
-
-/*-----------------------------------------------------*/
-/*---- START / Search Tree in central content area ----*/
-/*-----------------------------------------------------*/
-/*
-.main-col .fancytree-container {
-  margin: 0;
-  background: transparent;
-  border: none;
-  font-family: 'droidserif',palatino,'Palatino Linotype',georgia,serif;
-}
-
-.main-col .fancytree-container ul {
-  padding-top: 0;
-  margin-top: 0;
-}
-
-.main-col .fancytree-container li {
-  padding: 0;
-  line-height: 1.68em;
-  overflow: hidden;
-  position: relative;
-}
-
-.main-col .fancytree-icon {
-  margin: 0;
-  padding: 0;
-  width: 0;
-  height: 0;
-  line-height: 0;
-  display: none;
-} 
-
-.main-col .fancytree-node {
-  border: 1px solid transparent !important;
-  display: block;
-}
-
-.main-col .fancytree-node:hover,
-.main-col .fancytree-node:active,
-.main-col .fancytree-node.fancytree-active,
-.main-col .fancytree-node.fancytree-selected,
-.main-col .fancytree-container.fancytree-treefocus span.fancytree-node.fancytree-active {
-  background: white !important;
-  border-color: #eee !important;
-}
-
-.main-col .fancytree-container li > .ajax-progress {
-  position: absolute;
-  top: 0.15rem;
-  right: 0.1rem;
-  background: #fff;
-  padding: 0.1rem 0.5rem;
-}
-
-.main-col .fancytree-title a {
-  color: #444;
-}
-
-.main-col .fancytree-title a:hover,
-.main-col .fancytree-title a:active {
-  color: #111;
-}
-
-.main-col .fancytree-title {
-  color: #444;
-  margin: 0 0 0 -0.8rem;
-  padding-left: 15px;
-  line-height: 1.68em;
-  height: 1.62em;
-}
-
-.main-col .fancytree-title:hover,
-.main-col .fancytree-title:active {
-  color: #111;
-}
-
-.main-col .fancytree-title::before {
-  background: #fff;
-  color: transparent;
-  font-family: 'shanticon';
-  content: '\e625';
-  font-size: 1em;
-  float: left;
-  position: relative;
-  top: 0.6rem;
-  right: 0.2rem;
-  border-radius: 50%;
-  background-clip: padding-box;
-  width: 9px;
-  height: 9px;
-  display: block; display:none;
-  margin-right: 7px;
-  box-shadow: 0 0 2px 1px #aaa;
-  border-collapse: separate;
-}
-
-.main-col .fancytree-title:hover::before {
-  background: #777;
-  box-shadow: none;
-}
-
-.main-col .fancytree-statusnode-wait .fancytree-title::before,
-.main-col .fancytree-statusnode-error .fancytree-title::before {
-  width: 0;
-  height: 0;
-  display: none;
-  color: transparent;
-  box-shadow: none;
-  background: transparent;
-}
-
-.main-col .fancytree-has-children>span.fancytree-title {
-  padding-left: 10px;
-  margin-left: -15px;
-}
-
-.main-col .fancytree-has-children span.fancytree-title::before {
-  content: none;
-  position: relative;
-  top: 0;
-}
-
-.main-col .fancytree-container .fancytree-active .fancytree-title,
-.main-col .fancytree-container .fancytree-selected .fancytree-title {
-  color: #000;
-}
-
-.main-col .fancytree-container .fancytree-active.fancytree-has-children .fancytree-title::before,
-.main-col .fancytree-container .fancytree-selected.fancytree-has-children .fancytree-title::before {
-  content: none;
-  text-shadow: none;
-  display: none;
-}
-
-.main-col .fancytree-container .fancytree-active .fancytree-title::before,
-.main-col .fancytree-container .fancytree-selected .fancytree-title::before {
-  background: #888;
-  box-shadow: none;
-}
-
-.main-col .fancytree-container .glyphicon {
-  color: #666;
-  font-family: 'Glyphicons Halflings';
-  font-size: 15px;
-  margin-right: 12px;
-  position: relative;
-  top: 0.4rem;
-}
-
-.main-col .fancytree-container .fancytree-node:hover > .glyphicon {
-  color: #888;
-}
-
-.main-col .fancytree-container .fancytree-node.fancytree-active:active > .glyphicon,
-.main-col .fancytree-container .fancytree-node.fancytree-active .glyphicon,
-.main-col .fancytree-container .fancytree-node.fancytree-selected:active > .glyphicon,
-.main-col .fancytree-container .fancytree-node.fancytree-selected .glyphicon {
-  color: #666;
-  background: transparent;
-}
-
-
-
-.main-col .view-section .fancytree-title::before {
-  background: #fff;
-  color: transparent;
-  font-family: 'shanticon';
-  content: '\e625';
-  font-size: 1em;
-  float: left;
-  position: relative;
-  top: 0.6rem;
-  right: 0.2rem;
-  border-radius: 50%;
-  background-clip: padding-box;
-  width: 9px;
-  height: 9px;
-  display: block;
-  margin-right: 7px;
-  box-shadow: 0 0 2px 1px #aaa;
-  border-collapse: separate;
-}
-
-.main-col .view-section .fancytree-title:hover::before {
-  background: #777;
-  box-shadow: none;
-}
-
-.main-col .view-section .fancytree-statusnode-wait .fancytree-title::before,
-.main-col .view-section .fancytree-statusnode-error .fancytree-title::before {
-  width: 0;
-  height: 0;
-  display: none;
-  color: transparent;
-  box-shadow: none;
-  background: transparent;
-}
-
-.main-col .fancytree-exp-n .fancytree-expander,
-.main-col .fancytree-exp-nl .fancytree-expander {
-  background: #fff;
-  color: transparent;
-  font-family: 'shanticon';
-  content: '\e625';
-  font-size: 1em;
-  float: left;
-  position: relative;
-  top: 0.65rem;
-  left: 0.25rem;
-  border-radius: 50%;
-  background-clip: padding-box;
-  width: 9px;
-  height: 9px;
-  display: block;
-  margin-right: 7px;
-  box-shadow: 0 0 2px 1px #aaa;
-  border-collapse: separate;
-  background-image: none !important;
-}
-
-.main-col .fancytree-exp-n.on-hover .fancytree-expander,
-.main-col .fancytree-exp-nl.on-hover .fancytree-expander,
-.main-col .fancytree-active.fancytree-exp-n .fancytree-expander,
-.main-col .fancytree-active.fancytree-exp-nl .fancytree-expander {
-  background: #777;
-  box-shadow: none;
-}
-
-*/
-
-
-
-
-
-
-
 /****************************/
 /***** BREADCRUMBS **********/
 /****************************/
 
-/************************
-  From Sources Views 
-************************/
+#block-sources-views-custom-taxonomy-breadcrumb {
+  height: 30px;
+  font-size: 1em;
+  color: #FFF;
+  overflow: hidden;
+  /**  Keep this hidden container from blocking clicks */
+}
 
 .library-dropdown,
 .breadcrumb-child-container {
@@ -684,6 +450,19 @@ a#long-detail.active {
   box-shadow: 7px 7px 10px -6px rgba(51,51,51,1);
   background: #f1f1f1;
   position: absolute;
+}
+
+.library-dropdown::after, 
+.breadcrumb-child-container::after{ /* testing alternative arrow */
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 13px 10px;
+  border-color: transparent transparent #434343 transparent;
+  display:inline-block;
+  margin-left:50%;
+  position:absolute;
+  left:-1rem;
 }
 
 .library-dropdown .item-list {
@@ -704,18 +483,7 @@ a#long-detail.active {
   width: auto;
   float: left;
 }
-/*
-.breadcrumb-child-container .breadcrumb-child-top,
-.view-all-library-container {
-  padding: 10px 15px 10px 15px;
-  border-bottom: 1px solid #c3c3c3;
-}
 
-.breadcrumb-child-container .breadcrumb-child-sub-top {
-  padding: 15px 15px 0 15px;
-  overflow: hidden;
-}
-*/
 .breadcrumb-child-container .breadcrumb-parent {
   padding: 15px 15px 0px 15px;
 }
@@ -724,50 +492,10 @@ a#long-detail.active {
   padding: 0 15px;
 }
 
-/*
-.breadcrumb-child-container .breadcrumb-child ul {
-  margin-left: 10px;
-}
-
-
-.tree ul.fancytree-container {
-  border: none;
-  background: none;
-}
-*/
-
-/**************************
-  END from Sources-Views
-***************************/
 
 
 
 
-.breadcrumb-child-top{
-   position:relative;
-}
-
-.library-dropdown::after, 
-.breadcrumb-child-container::after{
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 10px 13px 10px;
-	border-color: transparent transparent #434343 transparent;
-	display:inline-block;
-	margin-left:50%;
-	position:absolute;
-	left:-1rem;
-}
-
-
-#block-sources-views-custom-taxonomy-breadcrumb {
-  height: 30px;
-  font-size: 1em;
-  color: #FFF;
-  overflow: hidden;
-  /**  Keep this hidden container from blocking clicks */
-}
 /*
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child ul:first-of-type {
   padding: 0;
@@ -814,6 +542,7 @@ a#long-detail.active {
   background-position: 40px top;
   opacity: 0;
 }
+
 /*
 #block-sources-views-custom-taxonomy-breadcrumb .library-dropdown ul {
   margin-top: 15px;
@@ -871,16 +600,12 @@ a#long-detail.active {
 */
 
  .breadcrumb-child-container .breadcrumb-child-top {
-  /*font-size: 80%;
-  font-weight:bold;
-  padding-top: 1.25rem;*/
   background: #555;
-  /*font-family: 'Helvetica Neue', helvetica, arial, sans-serif !important;*/
-
-  	font-size: 0;
+  font-size: 0;
 	border-bottom: 7px double #fff;
 	font-weight: bold;
 	height: 1.25rem;
+  position:relative;
 }
 
  .view-all-library-container {
@@ -918,7 +643,7 @@ a#long-detail.active {
 
 
 .breadcrumb-child-sub-top .fancytree-has-children > .fancytree-title{
-  margin-left: 0rem;
+  margin-left: 0rem !important;
 }
 
 .breadcrumb-child-sub-top .fancytree-has-children > .fancytree-title::before{
