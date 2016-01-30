@@ -492,7 +492,7 @@ a#long-detail.active {
   padding: 0 15px;
 }
 
-#block-sources-views-custom-taxonomy-breadcrumb .fancytree-node{
+#block-sources-views-custom-taxonomy-breadcrumb .fancytree-node:hover{
   background-color: #eee !important;
   border-color: #ccc !important;
 }
@@ -688,7 +688,9 @@ a#long-detail.active {
 	background:none;
 }
 
-
+.breadcrumb-child > .breadcrumb-tree{
+  margin-top:-0.2rem;
+}
 
 
 
@@ -696,6 +698,17 @@ a#long-detail.active {
 .kWidgetIframeContainer{
   max-width: 320px !important;
 }
+
+
+
+
+
+
+/*--- search flyout ---*/
+.extruder .fancytree-has-children > span.fancytree-title{
+  margin-left: -0.4rem;
+}
+
 
 
 
