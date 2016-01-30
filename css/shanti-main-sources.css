@@ -704,7 +704,7 @@ a#long-detail.active {
   width: auto;
   float: left;
 }
-
+/*
 .breadcrumb-child-container .breadcrumb-child-top,
 .view-all-library-container {
   padding: 10px 15px 10px 15px;
@@ -715,7 +715,7 @@ a#long-detail.active {
   padding: 15px 15px 0 15px;
   overflow: hidden;
 }
-
+*/
 .breadcrumb-child-container .breadcrumb-parent {
   padding: 15px 15px 0px 15px;
 }
@@ -901,14 +901,14 @@ a#long-detail.active {
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top {
   padding: 0.7rem 0.3rem 0.2rem 1.3rem;
 }
-/*
+
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child-sub-top ul:first-child{
   list-style: none;
   -webkit-padding-start: 0px;
   padding-left: 0px;
   margin:0 0 0 -1rem;
 }
-*/
+
 #block-sources-views-custom-taxonomy-breadcrumb .breadcrumb-child-container .breadcrumb-child {
 	padding: 0 0.5rem 0.5rem;
   margin-top: 0;
