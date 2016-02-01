@@ -3,6 +3,8 @@
   background: #009caa !important;
 }
 
+.content-section a,
+.page-sources-search .views-row .glyphicon,
 .ui-fancytree li a,
 .fancytree-node .fancytree-expander,
 .fancytree-container .fancytree-node:hover > .glyphicon,
@@ -19,13 +21,13 @@
   color: #009caa !important;
 }
 
+.view-section .nav-tabs > li.active > a {
+  border-top-color: #009caa !important;
+}
+
 .navbar-brand:active .site-slogan,
 .view-id-biblio_search_api .views-field-title a {
   color: #444 !important;
-}
-
-.view-section .nav-tabs > li.active > a {
-  border-top-color: #009caa !important;
 }
 
 ::-moz-selection{
@@ -124,10 +126,6 @@
   display: block;
 }
 
-.content-section a{
-  color: #00656d;
-}
-
 .page-sources-search .views-row {
   overflow: hidden;
   min-height: 45px;
@@ -138,7 +136,6 @@
 }
 
 .page-sources-search .views-row .glyphicon {
-  color: #008a96;
   margin-right: 0.8rem;
   position: relative;
   top: 1px;
