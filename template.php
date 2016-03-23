@@ -47,7 +47,7 @@ function sources_theme_preprocess_views_view_fields(&$vars) {
     $updated_query_string_parameters = sources_theme_get_updated_query_string_parameters($vars);
     $publication_format = sources_theme_get_publication_type($vars);
     $source_title_info = sources_theme_get_source_title_info($publication_year, $publication_format);
-    $custom_title_link_wrapper_prefix = '<div class="source-icon-' . $publication_format . ' title-link-container"><span class="glyphicon shanticon-essays"></span>';
+    $custom_title_link_wrapper_prefix = '<div class="source-icon-' . $publication_format . ' title-link-container"><span class="icon shanticon-essays"></span>';
     $custom_title_link_wrapper_suffix = '</div>';
     //Display custom views field output based on current views display.
     switch ($vars['view']->current_display) {
