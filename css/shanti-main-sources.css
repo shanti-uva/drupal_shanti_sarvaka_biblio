@@ -1,7 +1,9 @@
 /* BEGIN custom theme colors */
 .titlearea,
 .breadcrumb .icon,
-.nav-tabs.nav-justified>li.active {
+.nav-tabs.nav-justified>li.active>a,
+.nav-tabs.nav-justified>li.active>a:focus,
+.nav-tabs.nav-justified>li.active>a:hover {
   background: #009caa !important;
 }
 
