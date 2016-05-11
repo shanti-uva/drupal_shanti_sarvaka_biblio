@@ -30,6 +30,11 @@
 .input-section .selectpicker .caret::before*/ {
   color: #009caa !important;
 }
+
+.content-section a.btn.btn-primary {
+    color: #FFF !important;
+}
+
     /* color: #008a96 !important; ...darker */
 
 .nav-tabs.nav-justified>li.active,
@@ -657,8 +662,24 @@ a#long-detail.active {
 
 
 
+/**** Collections ******/
+.node-type-collection .pane-node-body.shanti-collection-body, .node-type-subcollection .pane-node-body.shanti-collection-body {
+    min-height: 180px;
+}
 
+.view.view-biblio-list.view-display-id-panel_pane_1 .view-result-count-info {
+    font-style: italic;
+    margin-bottom: 6px;
+}
 
+.view.view-biblio-list.view-display-id-panel_pane_1 .views-field {
+    font-size: 1em;
+}
+
+.view.view-biblio-list.view-display-id-panel_pane_1 .views-field.views-field-citation {
+    margin-left: 16px;
+    text-indent: -16px;
+}
 
 
 
