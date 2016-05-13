@@ -711,6 +711,24 @@ a#long-detail.active {
 .node-type-collection .shanti-collection-body p{
   line-height: 1.68em;
 }
+
+.view-biblio-list .view-content > div{
+  padding-top: 1rem;
+}
+
+.panel-panel.right.col-sm-3 .view-collections{
+  font-size: 100%
+}
+
+.panel-panel.right.col-sm-3 .view-collections .shanticon-stack:before{
+  font-size: 1.25em;
+  position: relative;
+  top: 0.18em;
+  margin-right: 0.3rem;
+}
+
+
+
 /**
 * 
 * BEGIN - Edit Form CSS
