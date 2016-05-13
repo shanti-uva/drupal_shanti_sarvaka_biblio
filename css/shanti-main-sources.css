@@ -770,11 +770,12 @@ a#long-detail.active {
 .node-type-collection .node-collection-form .checkbox-inline{ padding-left: 0; }
 .node-type-collection .mediaBrowserLaunch-processed{ position: relative; }
 
-.node-type-collection .mediaBrowserLaunch-processed a{ position: absolute; margin-left:1rem; }
+.node-type-collection .mediaBrowserLaunch-processed a{ position: absolute; margin-left:1rem; text-transform: uppercase;}
 .node-type-collection .mediaBrowserLaunch-processed a#edit-field-general-featured-image-und-0-select{ bottom: 50px; }
 .node-type-collection .mediaBrowserLaunch-processed a#edit-field-general-featured-image-und-0-edit{ bottom: 80px; }
 .node-type-collection .mediaBrowserLaunch-processed a#edit-field-general-featured-image-und-0-remove{ bottom: 20px; }
 
+.text-format-wrapper .description{ margin-left:1rem; }
 
 /**
 * Collection-Group Edit Form 
