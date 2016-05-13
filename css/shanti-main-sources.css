@@ -168,7 +168,7 @@
 
 /* Bibio lists Author and Collection's links */
 .page-sources-search .views-field-biblio-authors li a,
-.page-sources-search .views-field-field-zotero-tags li a{ font-weight:bold; }
+.page-sources-search .views-field-field-zotero-tags li a{ font-weight:bold; font-size:90%; }
 
 
 
