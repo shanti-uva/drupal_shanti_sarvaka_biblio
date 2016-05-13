@@ -765,6 +765,8 @@ a#long-detail.active {
 /**
 * Collections Edit Form 
 */
+
+.node-type-collection .form-type-radio label{ margin-left:0; }
 .node-type-collection .form-item .icheck-label{ margin: 0; }
 .node-type-collection .node-collection-form .radio-inline,
 .node-type-collection .node-collection-form .checkbox-inline{ padding-left: 0; }
