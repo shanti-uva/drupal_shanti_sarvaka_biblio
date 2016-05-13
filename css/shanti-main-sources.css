@@ -790,7 +790,9 @@ a#long-detail.active {
   border-radius: 20px;
 }
 
-.text-format-wrapper .description{ margin-left:1rem; }
+.node-type-collection .text-format-wrapper .description{ margin-left:1rem; }
+
+.node-type-collection .tab-pane.main-col > div{ padding-bottom:5rem; }
 
 /**
 * Collection-Group Edit Form 
