@@ -676,6 +676,9 @@ a#long-detail.active {
 * 
 */
 
+.page-node-log .btn.btn-primary.form-submit{ padding: .5em 1.75em .32em; }
+.page-node-log .views-exposed-form .views-exposed-widget .form-submit{ margin-top: 1.4em; }
+
 .node-type-collection .panel-panel.middle.col-lg-9{
   padding-bottom: 7rem;
 }
