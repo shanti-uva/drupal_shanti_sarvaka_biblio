@@ -10,7 +10,7 @@
 /*.content-section a,*/
 .ui-fancytree li a,
 .navbar-brand:hover .site-slogan,
-.view-id-biblio_search_api li a,
+/*.view-id-biblio_search_api li a,*/
 .page-sources-search .views-row .icon,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
@@ -120,12 +120,17 @@
   font-style: italic;
 }
 
+/* biblio list descriptive text */
+.page-sources-search .views-field-biblio-abst-e {
+  margin: 5px 0 10px 0;
+}
+
 .page-sources-search .views-field-biblio-abst-e,
 .page-sources-search .views-field-field-zotero-tags {
   clear: left;
 }
 
-.view-biblio-search-api .views-field-title {
+.page-sources-search .view-biblio-search-api .views-field-title {
   font-size: 1.12em;
   font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
   overflow: hidden;
@@ -161,9 +166,12 @@
   float: left;
 }
 
-.page-sources-search .views-field-biblio-abst-e {
-  margin: 5px 0 10px 0;
-}
+/* Bibio lists Author and Collection's links */
+.page-sources-search .views-field-biblio-authors li a,
+.page-sources-search .views-field-field-zotero-tags li a{ font-weight:bold; }
+
+
+
 
 .page-sources-search .view-empty {
   padding: 35px 24px 8px 24px;
@@ -642,14 +650,38 @@ a#long-detail.active {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 .kWidgetIframeContainer{
   max-width: 320px !important;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /**** Collections ******/
-.node-type-collection .pane-node-body.shanti-collection-body, .node-type-subcollection .pane-node-body.shanti-collection-body {
+.node-type-collection .pane-node-body.shanti-collection-body, 
+.node-type-subcollection .pane-node-body.shanti-collection-body {
     min-height: 180px;
 }
 
@@ -679,6 +711,8 @@ a#long-detail.active {
 .page-node-log .btn.btn-primary.form-submit{ padding: .5em 1.75em .32em; }
 .page-node-log .views-exposed-form .views-exposed-widget .form-submit{ margin-top: 1.4em; }
 
+.page-node-log .bootstrap-select.btn-group .dropdown-menu.open{ min-width: 110px; }
+
 .node-type-collection .panel-panel.middle.col-lg-9{
   padding-bottom: 7rem;
 }
@@ -698,6 +732,7 @@ a#long-detail.active {
   font-weight: 500;
   font-family: 'museo-sans-500',helvetica,arial,sans-serif;
   padding: .65em 2.5em .52em;
+  margin: 0.5rem 0;
 }
 
 /**
