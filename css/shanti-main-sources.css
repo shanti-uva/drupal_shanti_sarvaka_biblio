@@ -676,6 +676,10 @@ a#long-detail.active {
 * 
 */
 
+.node-type-collection .panel-panel.middle.col-lg-9{
+  padding-bottom: 7rem;
+}
+
 .node-type-collection .content-section a{
   font-weight: bold;
   font-size: 91%;
