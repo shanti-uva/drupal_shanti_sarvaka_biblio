@@ -771,7 +771,7 @@ a#long-detail.active {
 .node-type-collection .mediaBrowserLaunch-processed{ position: relative; }
 .node-type-collection .mediaBrowserLaunch-processed a{ 
   padding: 0.38em 1.5em 0.25em;
-  font-size: 0.68em;
+  font-size: 0.88em;
   background: #fff;
   color: #606060;
   font-weight:bold;
@@ -783,8 +783,8 @@ a#long-detail.active {
   border-radius: 4px
 }
 .node-type-collection .mediaBrowserLaunch-processed a:hover{
-  background: red;
-  color:#fff;
+  background: #ddd;
+  box-shadow: none;
 }
 
 .node-type-collection .text-format-wrapper .description{ margin-left:1rem; }
