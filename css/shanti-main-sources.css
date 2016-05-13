@@ -12,11 +12,6 @@
 .navbar-brand:hover .site-slogan,
 .view-id-biblio_search_api li a,
 .page-sources-search .views-row .icon,
-/*.fancytree-node .fancytree-expander,
-.fancytree-container .glyphicon,
-.fancytree-container .fancytree-node:hover > .glyphicon,
-.fancytree-container .fancytree-node.on-hover .fancytree-expander,
-.fancytree-container .fancytree-node.fancytree-active .glyphicon, -- These are replaced by fancytree selectors below */
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
 .view-section .nav-tabs>li.active>a:active,
@@ -25,27 +20,17 @@
 .view-section .fancytree-container .fancytree-node:active > .glyphicon,
 .view-section .fancytree-node.fancytree-active > .glyphicon,
 .view-section .fancytree-node.fancytree-selected > .glyphicon,
-.selectpicker .caret::before
-/*.main-content .selectpicker .caret::before, These are replaced by single selector above
-.input-section .selectpicker .caret::before*/ {
+.selectpicker .caret::before {
   color: #009caa !important;
 }
 
-.content-section a.btn.btn-primary {
-    color: #FFF !important;
-}
-
-    /* color: #008a96 !important; ...darker */
+/* color: #008a96 !important; ...darker */
 
 .nav-tabs.nav-justified>li.active,
-.view-section .nav-tabs > li.active > a {
-  border-top-color: #009caa !important;
-}
+.view-section .nav-tabs > li.active > a { border-top-color: #009caa !important; }
 
 .navbar-brand:active .site-slogan,
-.view-id-biblio_search_api .views-field-title a {
-  color: #444 !important;
-}
+.view-id-biblio_search_api .views-field-title a { color: #444 !important; }
 
 ::-moz-selection { background: #c0532f !important; }
 ::selection { background: #c0532f !important; }
@@ -57,7 +42,8 @@
   }
 }
 /**
-* END subtheme colors */
+* END subtheme colors 
+*/
 
 
 .page-sources-search div#block-system-main.block.block-system {
@@ -689,6 +675,17 @@ a#long-detail.active {
 * BEGIN - Edit Form CSS
 * 
 */
+
+.node-type-collection .content-section a.btn.btn-primary {
+  color: #fff;
+  font-size: 0.75em;
+  line-height: 2.25em;
+  height: 3.5em;
+  font-weight: normal;
+  font-weight: 500;
+  font-family: 'museo-sans-500', helvetica, arial, sans-serif;
+  padding: .65em 2.5em .52em;
+}
 
 /**
 * Collections Edit Form 
