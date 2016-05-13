@@ -683,3 +683,35 @@ a#long-detail.active {
 
 
 
+
+/**
+* 
+* BEGIN - Edit Form CSS
+* 
+*/
+
+/* Collections Edit Form */
+.page-node-edit .form-item .icheck-label{
+  margin: 0;
+}
+
+.page-node-edit .node-collection-form .radio-inline,
+.page-node-edit .node-collection-form .checkbox-inline{
+  padding-left: 0;
+}
+
+.page-node-edit .mediaBrowserLaunch-processed{
+  position: relative;
+}
+
+.page-node-edit .mediaBrowserLaunch-processed a{ position: absolute; margin-left:1rem; }
+.page-node-edit .mediaBrowserLaunch-processed a#edit-field-general-featured-image-und-0-select{ bottom: 50px; }
+.page-node-edit .mediaBrowserLaunch-processed a#edit-field-general-featured-image-und-0-edit{ bottom: 80px; }
+.page-node-edit .mediaBrowserLaunch-processed a#edit-field-general-featured-image-und-0-remove{ bottom: 20px; }
+
+/**
+* 
+* END - Edit Form CSS
+* 
+*/
+
