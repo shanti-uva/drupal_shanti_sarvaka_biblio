@@ -778,7 +778,7 @@ a#long-detail.active {
   color: #606060;
   font-weight:bold;
   border:1px solid #ddd;
-  margin:0;
+  margin:0 0.3rem;
   font-family: 'museo-sans-700',helvetica,arial,sans-serif;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -789,7 +789,7 @@ a#long-detail.active {
 .node-type-collection .mediaBrowserLaunch-processed a:hover{
   background: #888;
   box-shadow: none;
-  border: 1px solid #ccc;
+  border-color: #888;
   color: #fff;
   text-shadow: 0 0 1px #444;
 }
