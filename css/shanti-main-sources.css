@@ -735,21 +735,23 @@ a#long-detail.active {
 * 
 */
 
-.page-node-log .btn.btn-primary.form-submit{ padding: .5em 1.75em .32em; }
-.page-node-log .views-exposed-form .views-exposed-widget .form-submit{ margin-top: 1.4em; }
-
+/* Edit Log */
+.page-node-log .btn.btn-primary.form-submit { padding: .32em 1.5em .12em; }
+.page-node-log .views-exposed-form .views-exposed-widget .form-submit{ margin-top: 1.62em; }
 .page-node-log .bootstrap-select.btn-group .dropdown-menu.open{ min-width: 110px; }
 
+
+/* Collection page bottom space */
 .node-type-collection .panel-panel.middle.col-lg-9{
   padding-bottom: 7rem;
 }
-
+/* collection page anchors */
 .node-type-collection .content-section a{
   font-weight: bold;
   font-size: 91%;
   font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
 }
-
+/* Collections page sidebar buttons */
 .node-type-collection .content-section a.btn.btn-primary {
   color: #fff;
   font-size: 0.75em;
