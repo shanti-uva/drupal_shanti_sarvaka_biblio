@@ -787,8 +787,11 @@ a#long-detail.active {
   bottom: 40px;
 }
 .node-type-collection .mediaBrowserLaunch-processed a:hover{
-  background: #ddd;
+  background: #888;
   box-shadow: none;
+  border: 1px solid #ccc;
+  color: #fff;
+  text-shadow: 0 0 1px #444;
 }
 
 .node-type-collection .text-format-wrapper .description{ margin-left:1rem; }
