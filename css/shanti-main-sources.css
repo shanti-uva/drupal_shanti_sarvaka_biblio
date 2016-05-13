@@ -676,6 +676,12 @@ a#long-detail.active {
 * 
 */
 
+.node-type-collection .content-section a{
+  font-weight: bold;
+  font-size: 91%;
+  font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
+}
+
 .node-type-collection .content-section a.btn.btn-primary {
   color: #fff;
   font-size: 0.75em;
@@ -683,7 +689,7 @@ a#long-detail.active {
   height: 3.5em;
   font-weight: normal;
   font-weight: 500;
-  font-family: 'museo-sans-500', helvetica, arial, sans-serif;
+  font-family: 'museo-sans-500',helvetica,arial,sans-serif;
   padding: .65em 2.5em .52em;
 }
 
