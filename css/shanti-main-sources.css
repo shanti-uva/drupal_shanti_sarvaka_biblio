@@ -699,9 +699,18 @@ a#long-detail.active {
     text-indent: -16px;
 }
 
+.node-type-collection .shanti-collection-body h2.pane-title{
+  margin-bottom: 0.56rem;
+  margin-top: 1.38rem;
+}
 
+.node-type-collection .field-name-field-general-featured-image{
+  margin: 0.5rem 1rem 0.5rem 0;
+}
 
-
+.node-type-collection .shanti-collection-body p{
+  line-height: 1.68em;
+}
 /**
 * 
 * BEGIN - Edit Form CSS
