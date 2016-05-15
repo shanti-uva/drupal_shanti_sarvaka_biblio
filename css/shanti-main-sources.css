@@ -1,4 +1,14 @@
-/* BEGIN custom theme colors */
+/**
+* Mandala Sources - Development
+* 
+* version 1.x - shanti-main-sources.css
+* ---------------------------------------------------
+* University of Virginia / SHANTI MANDALA / SOURCES
+* ---------------------------------------------------
+* 
+*/
+
+/* BEGIN sub-theme colors */
 .titlearea,
 .breadcrumb .icon,
 .nav-tabs.nav-justified>li.active>a,
@@ -6,7 +16,6 @@
 .nav-tabs.nav-justified>li.active>a:hover {
   background: #009caa !important;
 }
-
 /*.content-section a,*/
 .ui-fancytree li a,
 .navbar-brand:hover .site-slogan,
@@ -23,9 +32,7 @@
 .selectpicker .caret::before {
   color: #009caa !important;
 }
-
 /* color: #008a96 !important; ...darker */
-
 .nav-tabs.nav-justified>li.active,
 .view-section .nav-tabs > li.active > a { border-top-color: #009caa !important; }
 
@@ -44,7 +51,6 @@
 /**
 * END subtheme colors 
 */
-
 
 .page-sources-search div#block-system-main.block.block-system {
   float: none;
