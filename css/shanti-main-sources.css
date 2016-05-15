@@ -730,27 +730,20 @@ a#long-detail.active {
 
 
 /**
-* 
-* BEGIN - Edit Form CSS
-* 
+* ---------------------------------------------
+* BEGIN Collections page & Related Edit pages
+* ---------------------------------------------
 */
 
-/* Edit Log */
-.page-node-log .btn.btn-primary.form-submit { padding: .32em 1.5em .12em; }
-.page-node-log .views-exposed-form .views-exposed-widget .form-submit{ margin-top: 1.62em; }
-.page-node-log .bootstrap-select.btn-group .dropdown-menu.open{ min-width: 110px; }
+/**
+* Collection page 
+*/
 
-
-/* Collection page bottom space */
+/* bottom space */
 .node-type-collection .panel-panel.middle.col-lg-9{
   padding-bottom: 7rem;
 }
-/* collection page anchors */
-.node-type-collection .content-section a{
-  font-weight: bold;
-  font-size: 91%;
-  font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
-}
+
 /* Collections page sidebar buttons */
 .node-type-collection .content-section a.btn.btn-primary {
   color: #fff;
@@ -765,7 +758,7 @@ a#long-detail.active {
 }
 
 /**
-* Collections Edit Form 
+* Collections-Main Edit Form 
 */
 .node-type-collection .icheck-label.option{ margin-left: 0; }
 .node-type-collection .node-collection-form .radio-inline,
@@ -806,8 +799,16 @@ a#long-detail.active {
 .page-node-group .admin-list dd::before{ content:'-'; display:inline-block; position:relative; margin-right:0.4rem;}
 
 /**
-* 
+* Collection-Log Edit Form 
+*/
+.page-node-log .btn.btn-primary.form-submit { padding: .32em 1.5em .12em; }
+.page-node-log .views-exposed-form .views-exposed-widget .form-submit{ margin-top: 1.62em; }
+.page-node-log .bootstrap-select.btn-group .dropdown-menu.open{ min-width: 110px; }
+
+
+/**
+* ----------------------
 * END - Edit Form CSS
-* 
+* ----------------------
 */
 
