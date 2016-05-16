@@ -685,6 +685,17 @@ a#long-detail.active {
 
 
 
+
+
+/**
+* ---------------------------------------------
+* BEGIN Collections page & Related Edit pages
+* ---------------------------------------------
+*/
+
+/**
+* OLDER css
+*/
 /**** Collections ******/
 .node-type-collection .pane-node-body.shanti-collection-body, 
 .node-type-subcollection .pane-node-body.shanti-collection-body {
@@ -704,7 +715,7 @@ a#long-detail.active {
     margin-left: 16px;
     text-indent: -16px;
 }
-
+/*
 .node-type-collection .shanti-collection-body h2.pane-title{
   margin-bottom: 0.56rem;
   margin-top: 1.38rem;
@@ -717,15 +728,15 @@ a#long-detail.active {
 .node-type-collection .shanti-collection-body p{
   line-height: 1.68em;
 }
-
+*/
 .view-biblio-list .view-content > div{
   padding-top: 1rem;
 }
-
+/*
 .panel-panel.right.col-sm-3 .view-collections{
   font-size: 100%
 }
-
+*/
 .panel-panel.right.col-sm-3 .view-collections .shanticon-stack:before{
   font-size: 1.25em;
   position: relative;
@@ -733,13 +744,10 @@ a#long-detail.active {
   margin-right: 0.3rem;
 }
 
-
-
 /**
-* ---------------------------------------------
-* BEGIN Collections page & Related Edit pages
-* ---------------------------------------------
+* END Older 
 */
+
 
 /**
 * SOURCES - Admin Edit
