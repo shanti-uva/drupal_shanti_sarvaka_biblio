@@ -742,8 +742,31 @@ a#long-detail.active {
 */
 
 /**
+* SOURCES - Admin Edit
+* BODY Class Structure Guide for CSS Selectors
+* -----------------------------------------------------------------
+* Collections View Page - class= 'node-type-collection'
+* - Collections Edit Page - class= 'node-type-collection page-node-edit'
+* Collections Group View Page - class= 'page-node-group'
+* - Collections Group Edit Page (Add Group Members) - class= 'page-group page-group-node page-group-node-admin page-group-node-admin-people page-group-node-admin-people-add-user'
+* - Collections Group Edit Page (Manage Group Members) - class= 'page-group page-group-node page-group-node-admin page-group-node-admin page-group-node-admin-people'
+* Collections Group Edit Page - class= 'page-group-node page-group-node-admin'
+* Collections Log Page - class= 'page-node-log'
+* - Collections Log Edit Page - (there is no Log edit page)
+*/
+
+/**
 * Collection page 
 */
+/* page layout narrower for Coelctions edit & Group Edit */
+.node-type-collection .tab-pane.main-col > div.region-content{ padding-bottom:5rem; }
+
+.page-node-group .tab-pane.main-col > div.region-content,
+.page-group-node-admin .tab-pane.main-col > div.region-content,
+.node-type-collection.page-node-edit .tab-pane.main-col > div.region-content {
+  max-width: 970px !important;
+  margin: 0 auto !important;
+}
 
 /* bottom space */
 .node-type-collection .panel-panel.middle.col-lg-9{
@@ -795,10 +818,8 @@ a#long-detail.active {
 
 .node-type-collection .text-format-wrapper .description{ margin-left:1rem; }
 
-.node-type-collection .tab-pane.main-col > div{ padding-bottom:5rem; }
-
 /**
-* Collection-Group Edit Form 
+* Collection-Group Page (not Edit page - which has slightly different body class="page-group-node")
 */
 .page-node-group .admin-list dt{ margin-top:1.5rem; }
 .page-node-group .admin-list dd{ margin-left: 1rem; font-style:italic; font-size: 90%; }
