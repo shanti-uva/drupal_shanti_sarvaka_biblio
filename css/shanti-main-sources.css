@@ -737,12 +737,7 @@ a#long-detail.active {
   font-size: 100%
 }
 */
-.panel-panel.right.col-sm-3 .view-collections .shanticon-stack:before{
-  font-size: 1.25em;
-  position: relative;
-  top: 0.18em;
-  margin-right: 0.3rem;
-}
+
 
 /**
 * END Older 
@@ -776,23 +771,7 @@ a#long-detail.active {
   margin: 0 auto !important;
 }
 
-/* bottom space */
-.node-type-collection .panel-panel.middle.col-lg-9{
-  padding-bottom: 7rem;
-}
 
-/* Collections page sidebar buttons */
-.node-type-collection .content-section a.btn.btn-primary {
-  color: #fff;
-  font-size: 0.75em;
-  line-height: 2.25em;
-  height: 3.5em;
-  font-weight: normal;
-  font-weight: 500;
-  font-family: 'museo-sans-500',helvetica,arial,sans-serif;
-  padding: .65em 2.5em .52em;
-  margin: 0.5rem 0;
-}
 
 /**
 * Collections-Main Edit Form 
