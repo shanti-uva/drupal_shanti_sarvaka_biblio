@@ -52,6 +52,11 @@
 * END subtheme colors 
 */
 
+
+.content-section.equal-height{
+  padding-bottom: 7rem;
+}
+
 .page-sources-search div#block-system-main.block.block-system {
   float: none;
 }
@@ -110,6 +115,7 @@
   display: inline;
   float: left;
 }
+
 
 .views-field-biblio-place-published {
   float: left;
