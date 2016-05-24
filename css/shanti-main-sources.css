@@ -703,8 +703,8 @@ a#long-detail.active {
 }
 
 .view.view-biblio-list.view-display-id-panel_pane_1 .view-result-count-info {
-    font-style: italic;
-    margin-bottom: 6px;
+    /*font-style: italic;
+    margin-bottom: 6px;*/
 }
 
 .view.view-biblio-list.view-display-id-panel_pane_1 .views-field {
@@ -729,9 +729,30 @@ a#long-detail.active {
   line-height: 1.68em;
 }
 */
-.view-biblio-list .view-content > div{
-  padding-top: 1rem;
+.view-biblio-list .view-content > div {
+  padding-top: 1.5rem;
 }
+
+.view-biblio-list a {
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+}
+
+.views-field-citation span.biblio-title-mla {
+  font-weight: bold;
+  opacity: 0.9;
+  font-size: 90%;
+  font-style: italic;
+}
+/* authors */
+.views-field-citation span.field-content {
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+}
+.views-field-citation i,
+.views-field-citation em {
+  font-size: 90%;
+  color: #333;
+}
+
 /*
 .panel-panel.right.col-sm-3 .view-collections{
   font-size: 100%
