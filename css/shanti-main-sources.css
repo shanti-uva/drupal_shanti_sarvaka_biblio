@@ -36,8 +36,7 @@
 .nav-tabs.nav-justified>li.active,
 .view-section .nav-tabs > li.active > a { border-top-color: #009caa !important; }
 
-.navbar-brand:active .site-slogan,
-.view-id-biblio_search_api .views-field-title a { color: #444 !important; }
+.navbar-brand:active .site-slogan { color: #444 !important; }
 
 ::-moz-selection { background: #c0532f !important; }
 ::selection { background: #c0532f !important; }
@@ -52,6 +51,11 @@
 * END subtheme colors 
 */
 
+
+/* override system.menus.css #36 */
+li a.active{
+  color: #454fa4;
+}
 
 .content-section.equal-height{
   padding-bottom: 7rem;
@@ -103,6 +107,8 @@
 .page-sources-search .views-field-biblio-authors {
   margin-top: 5px;
   overflow: hidden;
+  padding-left: 2.2rem;
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
 }
 
 .page-sources-search .views-field-biblio-authors ul {
@@ -143,10 +149,9 @@
 }
 
 .page-sources-search .view-biblio-search-api .views-field-title {
-  font-size: 1.12em;
-  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
   overflow: hidden;
   display: block;
+  color: #333;
 }
 
 .page-sources-search .views-row {
@@ -703,12 +708,12 @@ a#long-detail.active {
 }
 
 .view.view-biblio-list.view-display-id-panel_pane_1 .views-field {
-    font-size: 1em;
+    /* font-size: 1em; */
 }
 
 .view.view-biblio-list.view-display-id-panel_pane_1 .views-field.views-field-citation {
-    margin-left: 16px;
-    text-indent: -16px;
+    /* margin-left: 16px;
+    text-indent: -16px; */
 }
 /*
 .node-type-collection .shanti-collection-body h2.pane-title{
