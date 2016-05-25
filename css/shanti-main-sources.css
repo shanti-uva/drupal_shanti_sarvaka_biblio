@@ -296,7 +296,7 @@ li a.active{
 #block-sources-views-custom-sort-filter .select-wrapper select option,
 #block-sources-views-custom-sort-filter .select-wrapper select optgroup {
   font-size: 0.938em;
-  font-family: 'museo-sans-300', helvetica,arial, sans-serif;
+  font-family: 'museo-sans-500', helvetica,arial, sans-serif;
 }
 
 #block-sources-views-custom-sort-filter .select-wrapper  .holder {
@@ -770,7 +770,6 @@ a#long-detail.active {
 .views-field-citation span.biblio-title-mla {
   font-weight: bold;
   opacity: 0.85;
-  font-style: italic;
   letter-spacing: -0.03em;
 }
 /* authors */
