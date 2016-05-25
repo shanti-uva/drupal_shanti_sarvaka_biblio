@@ -61,16 +61,19 @@ li a.active{
   padding-bottom: 7rem;
 }
 
-.page-sources-search div#block-system-main.block.block-system {
-  float: none;
-  background: #fff;
-}
-
 .page-sources-search .tab-pane.main-col > div.region-content{
   max-width: 980px !important;
 }
 
-
+/* testing white background */
+.page-sources-search div#block-system-main.block.block-system {
+  float: none;
+  background: #fff;
+  box-shadow: inset 0 0 7px #aaa;
+  border-radius: 4px;
+  padding-top: 1rem;
+}
+/* testing white background */
 .node-type-collection div.panel-pane.pane-php.pane-1{
   padding: 0.5rem 1.5rem 2rem 2.2rem;
   background-color: #fff;
@@ -161,6 +164,7 @@ li a.active{
 .page-sources-search .views-field-biblio-abst-e,
 .page-sources-search .views-field-field-zotero-tags {
   clear: left;
+  font-size: 0.93em;
 }
 
 .page-sources-search .view-biblio-search-api .views-field-title {
