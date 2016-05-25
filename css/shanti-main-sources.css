@@ -105,6 +105,7 @@ li a.active{
 .page-sources-search .main-content .content-section .view-content,
 .page-sources-search .main-content .content-section .view-empty {
   padding: 12px 12px 8px 24px;
+  padding: 0px 18px 8px 18px;
   /* float: left; mf8yk removed 01/08/16 */
   display: block;
   width: 100%;
