@@ -723,6 +723,11 @@ a#long-detail.active {
 * ---------------------------------------------
 */
 
+/* TEMP */
+.shanti-collection-body{
+  margin-top: -2rem !important;
+}
+
 /**
 * OLDER css
 */
