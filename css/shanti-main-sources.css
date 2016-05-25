@@ -766,7 +766,7 @@ a#long-detail.active {
 
 .views-field-citation span.biblio-title-mla {
   font-weight: bold;
-  opacity: 0.8;
+  opacity: 0.85;
   font-style: italic;
   letter-spacing: -0.03em;
 }
