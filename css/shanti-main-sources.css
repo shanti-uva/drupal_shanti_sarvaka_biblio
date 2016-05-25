@@ -57,7 +57,7 @@ li a.active{
   color: #454fa4;
 }
 
-.content-section.equal-height{
+.node-type-collection .content-section.equal-height{
   padding-bottom: 7rem;
 }
 
@@ -72,6 +72,7 @@ li a.active{
   box-shadow: inset 0 0 7px #aaa;
   border-radius: 4px;
   padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 /* testing white background */
 .node-type-collection div.panel-pane.pane-php.pane-1{
