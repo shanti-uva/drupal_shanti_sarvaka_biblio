@@ -766,9 +766,9 @@ a#long-detail.active {
 
 .views-field-citation span.biblio-title-mla {
   font-weight: bold;
-  opacity: 0.9;
-  font-size: 0.93em;
+  opacity: 0.8;
   font-style: italic;
+  letter-spacing: -0.03em;
 }
 /* authors */
 .views-field-citation span.field-content {
