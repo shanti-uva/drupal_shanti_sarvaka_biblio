@@ -63,6 +63,11 @@ li a.active{
 
 .page-sources-search div#block-system-main.block.block-system {
   float: none;
+  background: #fff;
+}
+
+.page-sources-search .tab-pane.main-col > div.region-content{
+  max-width: 980px !important;
 }
 
 .page-sources-search div.messages {
@@ -105,9 +110,8 @@ li a.active{
 }
 
 .page-sources-search .views-field-biblio-authors {
-  margin-top: 5px;
   overflow: hidden;
-  padding-left: 2.2rem;
+  padding-left: 2.7rem;
   font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
 }
 
@@ -166,7 +170,8 @@ li a.active{
 .page-sources-search .views-row .icon {
   margin-right: 0.8rem;
   position: relative;
-  top: 1px;
+  top: 3px;
+  font-size: 1.32em;
 }
 
 .page-sources-search .views-field-field-zotero-tags ul {
@@ -301,16 +306,19 @@ li a.active{
 }
 
 .detail-level-container {
-  margin-right: 30px;
+  margin-right: 1.5rem;
   overflow: hidden;
-  height: 30px;
-  width: 135px;
+  height: 2em;
+  width: 10em;
 }
 
 .detail-level-container span {
-  float: left;
-  line-height: 30px;
-  font-size: 0.85em;
+  line-height: 1.88em;
+  position: relative;
+  right: 1rem;
+  font-size: 1.12em;
+  color:#555;
+  font-family: 'museo-sans-500',helvetica,arial,sans-serif;
 }
 
 .detail-level-container ul {
@@ -415,6 +423,7 @@ a#long-detail.active {
   border: none;
   color: #333;
   font-size: 1em;
+  box-shadow: 0 0 3px #aaa;
 }
 
 .custom-pager .custom-pager-left {
@@ -423,7 +432,8 @@ a#long-detail.active {
   width: auto;
   display: inline-block;
   float: left;
-  font-size:1.12em;
+  font-size: 1.25em;
+  color:#555;
 }
 
 .custom-pager .custom-pager-right {
