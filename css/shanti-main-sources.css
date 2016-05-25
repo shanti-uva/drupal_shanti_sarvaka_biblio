@@ -61,7 +61,6 @@ li a.active{
   padding-bottom: 7rem;
 }
 
-.node-type-collection .tab-pane.main-col > div.region-content,
 .page-sources-search .tab-pane.main-col > div.region-content{
   max-width: 950px !important;
 }
