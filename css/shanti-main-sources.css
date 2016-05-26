@@ -28,7 +28,7 @@
 .ui-fancytree li a,
 .navbar-brand:hover .site-slogan,
 /*.view-id-biblio_search_api li a,*/
-.page-sources-search .views-row .icon,
+.page-sources-search .views-row .shanticon-essays,
 .view-section .nav-tabs>li.active>a, 
 .view-section .nav-tabs>li.active>a:hover, 
 .view-section .nav-tabs>li.active>a:active,
@@ -194,7 +194,7 @@ li a.active{
   border-top-color:#ccc;
 }
 
-.page-sources-search .views-row .icon {
+.page-sources-search .views-row .shanticon-essays {
   margin-right: 0.8rem;
   position: relative;
   top: 3px;
