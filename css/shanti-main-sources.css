@@ -8,6 +8,14 @@
 * 
 */
 
+/**
+* BODY Class Structure Guide for CSS Selectors
+* -----------------------------------------------------------------
+* Bibliography Listing Page - class= 'page-sources-search'
+* Individual Bibliography Info Page - class= 'page-sources-search-biblio'
+*
+*/
+
 /* BEGIN sub-theme colors */
 .titlearea,
 .breadcrumb .icon,
@@ -121,11 +129,6 @@ li a.active{
   max-width: 100%;
 }
 
-.page-sources-search.page-sources-search-biblio .main-content .content-section .view-content {
-  width: 100%;
-  max-width: 100%;
-}
-
 .page-sources-search .views-field-biblio-authors {
   overflow: hidden;
   padding-left: 2.7rem;
@@ -187,6 +190,10 @@ li a.active{
   border-bottom: 1px solid #ccc;  
 }
 
+.page-sources-search .view-content .views-row:first-of-type{
+  border-top-color:#ccc;
+}
+
 .page-sources-search .views-row .icon {
   margin-right: 0.8rem;
   position: relative;
@@ -217,6 +224,30 @@ li a.active{
 
 .page-sources-search .view-empty {
   padding: 35px 24px 8px 24px;
+}
+
+
+
+
+
+
+
+
+
+
+/* individual biblio listing */
+
+.page-sources-search-biblio .main-content .content-section .view-content {
+  width: 100%;
+  max-width: 100%;
+}
+
+.page-sources-search-biblio .views-field-biblio-authors{
+  padding-left: 0;
+}
+
+.page-sources-search-biblio .views-row{
+  border-top-color:#ccc;
 }
 
 
@@ -474,7 +505,7 @@ a#long-detail.active {
 }
 
 .custom-pager .custom-pager-right.expanded,
-.page-sources-search.page-sources-search-biblio .custom-pager .custom-pager-right {
+.page-sources-search-biblio .custom-pager .custom-pager-right {
   margin-right: 0;
 }
 
