@@ -24,7 +24,7 @@
 
 ?>
 <?php if(!empty($output)): ?>
-  <ul>
+  <ul class="list-inline">
     <?php
       $collections = $row->_entity_properties['field_zotero_collections'];
       end($collections);
