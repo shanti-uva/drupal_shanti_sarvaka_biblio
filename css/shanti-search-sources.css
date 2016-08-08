@@ -11,6 +11,11 @@
   margin-top: 0;
 }
 
+.input-section .shanticon-magnify{
+  position:absolute;
+  top:2.3rem;
+}
+
 .content-section a.toggle-filter-btn-open {
   margin-top: 12px;
   font-size: 1.375em;
